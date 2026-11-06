@@ -1,6 +1,6 @@
 {
  "maj": "2026-11-06",
- "note": "Premier relevé. Facebook et Instagram FR : abonnés lus sur les profils publics ; le détail par publication demande l'accès au portefeuille Lumière Vitale dans Meta Business Suite (Chrome connecté au compte Lumina Vitae ce jour-là).",
+ "note": "Premier relevé. Facebook et Instagram : chiffres lus sur les pages publiques des reels (identiques à Business Suite). Instagram ne montre pas les partages.",
  "colonnes": [
   "tiktok",
   "facebook",
@@ -8,10 +8,7 @@
   "xvideo",
   "xthread"
  ],
- "nonReleve": [
-  "facebook-fr",
-  "instagram-fr"
- ],
+ "nonReleve": [],
  "comptes": [
   {
    "id": "tiktok-fr",
@@ -74,14 +71,25 @@
    "reseau": "Facebook",
    "langue": "fr",
    "nom": "Lumière Vitale",
-   "lien": "https://www.facebook.com/profile.php?id=61595839305817",
+   "lien": "https://www.facebook.com/lumierevitale.sante",
    "abonnes": 0,
-   "detail": false,
-   "publications": [],
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/1562875678977214/",
+     "vues": 246,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Marcher après manger"
+    }
+   ],
    "totaux": {
-    "publications": 0,
-    "vues": 0,
-    "jaime": 0,
+    "publications": 1,
+    "vues": 246,
+    "jaime": 1,
     "commentaires": 0,
     "partages": 0
    }
@@ -101,6 +109,7 @@
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
+     "lien": "https://www.facebook.com/reel/2224056648488695/",
      "num": 2,
      "sujet": "Walking after meals"
     }
@@ -120,11 +129,22 @@
    "nom": "@lumierevitale.sante",
    "lien": "https://www.instagram.com/lumierevitale.sante/",
    "abonnes": 1,
-   "detail": false,
-   "publications": [],
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:31:10Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfXrf6Vlq5_/",
+     "vues": 120,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 2,
+     "sujet": "Marcher après manger"
+    }
+   ],
    "totaux": {
-    "publications": 0,
-    "vues": 0,
+    "publications": 1,
+    "vues": 120,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -145,6 +165,7 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/",
      "num": 2,
      "sujet": "Walking after meals"
     }
@@ -307,19 +328,33 @@
      "partages": 0,
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
+    "facebook-fr": {
+     "vues": 246,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1562875678977214/"
+    },
     "facebook-en": {
      "vues": 198,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
-     "lien": null
+     "lien": "https://www.facebook.com/reel/2224056648488695/"
+    },
+    "instagram-fr": {
+     "vues": 120,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfXrf6Vlq5_/"
     },
     "instagram-en": {
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "lien": null
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/"
     },
     "xthread-fr": {
      "vues": 0,
@@ -356,8 +391,8 @@
     },
     "facebook-fr": {
      "abonnes": 0,
-     "vues": 0,
-     "jaime": 0,
+     "vues": 246,
+     "jaime": 1,
      "commentaires": 0
     },
     "facebook-en": {
@@ -368,7 +403,7 @@
     },
     "instagram-fr": {
      "abonnes": 1,
-     "vues": 0,
+     "vues": 120,
      "jaime": 0,
      "commentaires": 0
     },
