@@ -134,7 +134,7 @@ function comptes() {
     </div>`).join('');
 }
 
-function top() {
+function meilleures() {
   const G = new Map();
   for (const c of comptesVus()) for (const p of c.publications) {
     if (!p.num) continue;
@@ -180,7 +180,7 @@ function evolution() {
 
 function tout() {
   document.querySelectorAll('.filtres button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.langue === langue)));
-  totaux(); comptes(); top(); pubs(); evolution();
+  totaux(); comptes(); meilleures(); pubs(); evolution();
 }
 
 document.querySelectorAll('.filtres button').forEach(b => b.addEventListener('click', () => {
