@@ -1,6 +1,17 @@
 {
  "maj": "2026-11-06",
  "note": "Premier relevé. Facebook et Instagram FR : abonnés lus sur les profils publics ; le détail par publication demande l'accès au portefeuille Lumière Vitale dans Meta Business Suite (Chrome connecté au compte Lumina Vitae ce jour-là).",
+ "colonnes": [
+  "tiktok",
+  "facebook",
+  "instagram",
+  "xvideo",
+  "xthread"
+ ],
+ "nonReleve": [
+  "facebook-fr",
+  "instagram-fr"
+ ],
  "comptes": [
   {
    "id": "tiktok-fr",
@@ -164,7 +175,8 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Tu n'as pas besoin de 10 000 pas par jour."
+     "num": 1,
+     "sujet": "10 000 pas"
     },
     {
      "date": "2026-11-03T11:30:00Z",
@@ -174,7 +186,8 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Vidéo : 10 000 pas"
+     "num": 1,
+     "sujet": "10 000 pas"
     },
     {
      "date": "2026-11-05T18:30:00Z",
@@ -185,7 +198,8 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Marcher 10 minutes après chaque repas fait plus pour ta glycémie que 30 minutes d'un coup."
+     "num": 2,
+     "sujet": "Marcher après manger"
     }
    ],
    "totaux": {
@@ -214,7 +228,8 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Video: 10,000 steps"
+     "num": 1,
+     "sujet": "10,000 steps"
     },
     {
      "date": "2026-11-05T18:30:01Z",
@@ -225,7 +240,8 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Walking 10 minutes after each meal does more for your blood sugar than 30 minutes in one go."
+     "num": 2,
+     "sujet": "Walking after meals"
     }
    ],
    "totaux": {
@@ -234,6 +250,91 @@
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
+   }
+  }
+ ],
+ "videos": [
+  {
+   "num": 1,
+   "sujet": {
+    "fr": "10 000 pas",
+    "en": "10,000 steps"
+   },
+   "date": "2026-11-08",
+   "cellules": {
+    "xthread-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2116960966357201391"
+    },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": null
+    },
+    "xvideo-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2117580046802284610"
+    }
+   }
+  },
+  {
+   "num": 2,
+   "sujet": {
+    "fr": "Marcher après manger",
+    "en": "Walking after meals"
+   },
+   "date": "2026-11-05",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 80,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703862733531335958"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
+    },
+    "facebook-en": {
+     "vues": 198,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": null
+    },
+    "instagram-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": null
+    },
+    "xthread-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2118410517387849802"
+    },
+    "xthread-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2118410520948515023"
+    }
    }
   }
  ],
