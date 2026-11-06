@@ -30,6 +30,10 @@ h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
 h2 { font-size: 1.15rem; margin: 32px 0 6px; }
 .sous, .aide { color: var(--doux); margin: 0; }
 .aide { font-size: 0.85rem; margin-bottom: 10px; }
+.entete { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+#recharger { font: inherit; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--trait-fort); background: var(--carte); color: var(--texte); cursor: pointer; }
+#recharger:hover { border-color: var(--fr); }
+#recharger:disabled { opacity: 0.6; cursor: wait; }
 .legende { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 14px 0 0; font-size: 0.85rem; color: var(--doux); }
 .tag { display: inline-block; font-size: 0.72rem; font-weight: 700; border-radius: 5px; padding: 0 5px; }
 .tag.fr { color: var(--fr); background: var(--fr-fond); }
@@ -69,7 +73,11 @@ footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
 <body>
 <main>
   <h1>Statistiques des réseaux</h1>
-  <p class="sous">Lumière Vitale <span class="tag fr">FR</span> et Lumina Vitae <span class="tag en">EN</span> · <span id="maj">…</span></p>
+  <div class="entete">
+    <p class="sous">Lumière Vitale <span class="tag fr">FR</span> et Lumina Vitae <span class="tag en">EN</span> · <span id="maj">…</span></p>
+    <button id="recharger" type="button" title="Réafficher les derniers chiffres publiés">↻ Recharger</button>
+  </div>
+  <p class="aide" id="charge"></p>
   <div class="legende">
     <span>Dans chaque case : <b>vues</b> en gros, puis ♥ j’aime · 💬 commentaires · ↗ partages</span>
     <span>— pas encore publié</span>
@@ -176,12 +184,23 @@ function defilement() {
   });
 }
 
-fetch('donnees.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
-  D = d;
-  document.getElementById('maj').textContent = 'dernier relevé le ' + new Date(d.maj + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-  document.getElementById('note').textContent = d.note || '';
-  resume(); videos(); evolution(); defilement();
-}).catch(e => { document.getElementById('maj').textContent = 'données introuvables'; console.error(e); });
+let defile = false;
+function charger() {
+  const b = document.getElementById('recharger'); b.disabled = true;
+  return fetch('donnees.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(d => {
+    D = d;
+    const quand = d.releve_le ? new Date(d.releve_le).toLocaleString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' }).replace(' ', ' ')
+      : new Date(d.maj + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+    document.getElementById('maj').textContent = 'dernier relevé le ' + quand;
+    document.getElementById('charge').textContent = 'Page chargée à ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) + '. Pour de nouveaux chiffres, demander « /stats » à Claude.';
+    document.getElementById('note').textContent = d.note || '';
+    resume(); videos(); evolution();
+    if (!defile) { defilement(); defile = true; } else dispatchEvent(new Event('resize'));
+  }).catch(e => { document.getElementById('maj').textContent = 'données introuvables'; console.error(e); })
+    .finally(() => { b.disabled = false; });
+}
+document.getElementById('recharger').addEventListener('click', charger);
+charger();
 </script>
 </body>
 </html>

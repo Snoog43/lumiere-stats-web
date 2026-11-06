@@ -1,6 +1,7 @@
 {
  "maj": "2026-11-06",
- "note": "Premier relevé. Facebook et Instagram : chiffres lus sur les pages publiques des reels (identiques à Business Suite). Instagram ne montre pas les partages.",
+ "releve_le": "2026-11-06T07:30:12.880Z",
+ "note": "",
  "colonnes": [
   "tiktok",
   "facebook",
@@ -20,7 +21,7 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-05T18:30:00Z",
+     "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703862733531335958",
      "vues": 80,
      "jaime": 3,
@@ -48,7 +49,7 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-05T18:30:00Z",
+     "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542",
      "vues": 0,
      "jaime": 0,
@@ -78,7 +79,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 246,
+     "vues": 247,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -88,7 +89,7 @@
    ],
    "totaux": {
     "publications": 1,
-    "vues": 246,
+    "vues": 247,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -105,11 +106,11 @@
    "publications": [
     {
      "date": "2026-11-05T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/2224056648488695/",
      "vues": 198,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
-     "lien": "https://www.facebook.com/reel/2224056648488695/",
      "num": 2,
      "sujet": "Walking after meals"
     }
@@ -132,9 +133,9 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-05T18:31:10Z",
+     "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfXrf6Vlq5_/",
-     "vues": 120,
+     "vues": 121,
      "jaime": 0,
      "commentaires": 0,
      "partages": null,
@@ -144,7 +145,7 @@
    ],
    "totaux": {
     "publications": 1,
-    "vues": 120,
+    "vues": 121,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -160,12 +161,12 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-05T18:31:00Z",
+     "date": "2026-11-05T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/",
      "num": 2,
      "sujet": "Walking after meals"
     }
@@ -188,7 +189,7 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-01T18:30:00Z",
+     "date": "2026-11-01T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2116960966357201391",
      "type": "thread",
      "texte": "Tu n'as pas besoin de 10 000 pas par jour.",
@@ -200,18 +201,7 @@
      "sujet": "10 000 pas"
     },
     {
-     "date": "2026-11-03T11:30:00Z",
-     "type": "video",
-     "texte": "Vidéo : 10 000 pas",
-     "vues": 0,
-     "jaime": 0,
-     "commentaires": 0,
-     "partages": 0,
-     "num": 1,
-     "sujet": "10 000 pas"
-    },
-    {
-     "date": "2026-11-05T18:30:00Z",
+     "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118410517387849802",
      "type": "thread",
      "texte": "Marcher 10 minutes après chaque repas fait plus pour ta glycémie que 30 minutes d'un coup.",
@@ -221,6 +211,18 @@
      "partages": 0,
      "num": 2,
      "sujet": "Marcher après manger"
+    },
+    {
+     "date": "2026-11-03T11:30:01.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2117580049650205061",
+     "type": "video",
+     "texte": "Arrête de viser 10 000 pas par jour",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10 000 pas"
     }
    ],
    "totaux": {
@@ -241,19 +243,7 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-03T11:30:00Z",
-     "lien": "https://x.com/luminavitae_/status/2117580046802284610",
-     "type": "video",
-     "texte": "Video: 10,000 steps",
-     "vues": 0,
-     "jaime": 0,
-     "commentaires": 0,
-     "partages": 0,
-     "num": 1,
-     "sujet": "10,000 steps"
-    },
-    {
-     "date": "2026-11-05T18:30:01Z",
+     "date": "2026-11-05T18:30:01.000Z",
      "lien": "https://x.com/luminavitae_/status/2118410520948515023",
      "type": "thread",
      "texte": "Walking 10 minutes after each meal does more for your blood sugar than 30 minutes in one go.",
@@ -263,6 +253,18 @@
      "partages": 0,
      "num": 2,
      "sujet": "Walking after meals"
+    },
+    {
+     "date": "2026-11-03T11:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2117580046802284610",
+     "type": "video",
+     "texte": "10,000 steps a day? That number comes from an ad, not a study.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10,000 steps"
     }
    ],
    "totaux": {
@@ -295,7 +297,7 @@
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "lien": null
+     "lien": "https://x.com/LumiereVitale/status/2117580049650205061"
     },
     "xvideo-en": {
      "vues": 0,
@@ -329,7 +331,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 246,
+     "vues": 247,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -343,7 +345,7 @@
      "lien": "https://www.facebook.com/reel/2224056648488695/"
     },
     "instagram-fr": {
-     "vues": 120,
+     "vues": 121,
      "jaime": 0,
      "commentaires": 0,
      "partages": null,
@@ -391,7 +393,7 @@
     },
     "facebook-fr": {
      "abonnes": 0,
-     "vues": 246,
+     "vues": 247,
      "jaime": 1,
      "commentaires": 0
     },
@@ -403,7 +405,7 @@
     },
     "instagram-fr": {
      "abonnes": 1,
-     "vues": 120,
+     "vues": 121,
      "jaime": 0,
      "commentaires": 0
     },
