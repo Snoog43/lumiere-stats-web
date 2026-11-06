@@ -1,6 +1,6 @@
 {
  "maj": "2026-11-06",
- "releve_le": "2026-11-06T07:30:12.880Z",
+ "releve_le": "2026-11-06T16:41:34.060Z",
  "note": "",
  "colonnes": [
   "tiktok",
@@ -79,7 +79,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 247,
+     "vues": 251,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -89,7 +89,7 @@
    ],
    "totaux": {
     "publications": 1,
-    "vues": 247,
+    "vues": 251,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -107,7 +107,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2224056648488695/",
-     "vues": 198,
+     "vues": 199,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -117,7 +117,7 @@
    ],
    "totaux": {
     "publications": 1,
-    "vues": 198,
+    "vues": 199,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -201,6 +201,18 @@
      "sujet": "10 000 pas"
     },
     {
+     "date": "2026-11-06T11:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2118667208918208529",
+     "type": "video",
+     "texte": "Marcher 10 minutes après chaque repas bat 30 minutes",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Marcher après manger"
+    },
+    {
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118410517387849802",
      "type": "thread",
@@ -226,7 +238,7 @@
     }
    ],
    "totaux": {
-    "publications": 3,
+    "publications": 4,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -242,6 +254,18 @@
    "abonnes": 1,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-06T11:30:01.000Z",
+     "lien": "https://x.com/luminavitae_/status/2118667212437463399",
+     "type": "video",
+     "texte": "Walking 10 minutes after each meal beats 30 minutes",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Walking after meals"
+    },
     {
      "date": "2026-11-05T18:30:01.000Z",
      "lien": "https://x.com/luminavitae_/status/2118410520948515023",
@@ -268,7 +292,7 @@
     }
    ],
    "totaux": {
-    "publications": 2,
+    "publications": 3,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -331,14 +355,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 247,
+     "vues": 251,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1562875678977214/"
     },
     "facebook-en": {
-     "vues": 198,
+     "vues": 199,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -358,12 +382,26 @@
      "partages": 0,
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/"
     },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2118667208918208529"
+    },
     "xthread-fr": {
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://x.com/LumiereVitale/status/2118410517387849802"
+    },
+    "xvideo-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2118667212437463399"
     },
     "xthread-en": {
      "vues": 0,
@@ -393,13 +431,13 @@
     },
     "facebook-fr": {
      "abonnes": 0,
-     "vues": 247,
+     "vues": 251,
      "jaime": 1,
      "commentaires": 0
     },
     "facebook-en": {
      "abonnes": 0,
-     "vues": 198,
+     "vues": 199,
      "jaime": 1,
      "commentaires": 0
     },
