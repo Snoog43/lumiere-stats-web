@@ -1,0 +1,295 @@
+{
+ "maj": "2026-11-06",
+ "note": "Premier relevé. Facebook et Instagram FR : abonnés lus sur les profils publics ; le détail par publication demande l'accès au portefeuille Lumière Vitale dans Meta Business Suite (Chrome connecté au compte Lumina Vitae ce jour-là).",
+ "comptes": [
+  {
+   "id": "tiktok-fr",
+   "reseau": "TikTok",
+   "langue": "fr",
+   "nom": "@ledadventure",
+   "lien": "https://www.tiktok.com/@ledadventure",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:30:00Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703862733531335958",
+     "vues": 80,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Marcher après manger"
+    }
+   ],
+   "totaux": {
+    "publications": 1,
+    "vues": 80,
+    "jaime": 3,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "tiktok-en",
+   "reseau": "TikTok",
+   "langue": "en",
+   "nom": "@luminavitae.health",
+   "lien": "https://www.tiktok.com/@luminavitae.health",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:30:00Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Walking after meals"
+    }
+   ],
+   "totaux": {
+    "publications": 1,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "facebook-fr",
+   "reseau": "Facebook",
+   "langue": "fr",
+   "nom": "Lumière Vitale",
+   "lien": "https://www.facebook.com/profile.php?id=61595839305817",
+   "abonnes": 0,
+   "detail": false,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "facebook-en",
+   "reseau": "Facebook",
+   "langue": "en",
+   "nom": "Lumina Vitae",
+   "lien": "https://www.facebook.com/luminavitae",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:30:00Z",
+     "vues": 198,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Walking after meals"
+    }
+   ],
+   "totaux": {
+    "publications": 1,
+    "vues": 198,
+    "jaime": 1,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "instagram-fr",
+   "reseau": "Instagram",
+   "langue": "fr",
+   "nom": "@lumierevitale.sante",
+   "lien": "https://www.instagram.com/lumierevitale.sante/",
+   "abonnes": 1,
+   "detail": false,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "instagram-en",
+   "reseau": "Instagram",
+   "langue": "en",
+   "nom": "@luminavitae.health",
+   "lien": "https://www.instagram.com/luminavitae.health/",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-05T18:31:00Z",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Walking after meals"
+    }
+   ],
+   "totaux": {
+    "publications": 1,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "x-fr",
+   "reseau": "X",
+   "langue": "fr",
+   "nom": "@LumiereVitale",
+   "lien": "https://x.com/LumiereVitale",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-01T18:30:00Z",
+     "lien": "https://x.com/LumiereVitale/status/2116960966357201391",
+     "type": "thread",
+     "texte": "Tu n'as pas besoin de 10 000 pas par jour.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Tu n'as pas besoin de 10 000 pas par jour."
+    },
+    {
+     "date": "2026-11-03T11:30:00Z",
+     "type": "video",
+     "texte": "Vidéo : 10 000 pas",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Vidéo : 10 000 pas"
+    },
+    {
+     "date": "2026-11-05T18:30:00Z",
+     "lien": "https://x.com/LumiereVitale/status/2118410517387849802",
+     "type": "thread",
+     "texte": "Marcher 10 minutes après chaque repas fait plus pour ta glycémie que 30 minutes d'un coup.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Marcher 10 minutes après chaque repas fait plus pour ta glycémie que 30 minutes d'un coup."
+    }
+   ],
+   "totaux": {
+    "publications": 3,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "x-en",
+   "reseau": "X",
+   "langue": "en",
+   "nom": "@luminavitae_",
+   "lien": "https://x.com/luminavitae_",
+   "abonnes": 1,
+   "detail": true,
+   "publications": [
+    {
+     "date": "2026-11-03T11:30:00Z",
+     "lien": "https://x.com/luminavitae_/status/2117580046802284610",
+     "type": "video",
+     "texte": "Video: 10,000 steps",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Video: 10,000 steps"
+    },
+    {
+     "date": "2026-11-05T18:30:01Z",
+     "lien": "https://x.com/luminavitae_/status/2118410520948515023",
+     "type": "thread",
+     "texte": "Walking 10 minutes after each meal does more for your blood sugar than 30 minutes in one go.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Walking 10 minutes after each meal does more for your blood sugar than 30 minutes in one go."
+    }
+   ],
+   "totaux": {
+    "publications": 2,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  }
+ ],
+ "historique": [
+  {
+   "date": "2026-11-06",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 80,
+     "jaime": 3,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 198,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 1,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 1,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  }
+ ]
+}

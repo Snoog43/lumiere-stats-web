@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Stats Lumière Vitale</title>
+<style>
+:root {
+  --fond: #f6f4f1; --carte: #ffffff; --texte: #1d1b19; --doux: #6b655e; --trait: #e4dfd8;
+  --accent: #7a4fd6; --accent-doux: #efe8fb; --ok: #1f7a4d;
+  --tiktok: #111111; --facebook: #1b6fe0; --instagram: #c13584; --x: #444444;
+  --rayon: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #141312; --carte: #1e1c1b; --texte: #f1eeea; --doux: #a59e96; --trait: #34302d;
+    --accent: #b394ff; --accent-doux: #2a2238; --ok: #5fd39a;
+    --tiktok: #f1eeea; --facebook: #6aa5ff; --instagram: #f07ac0; --x: #c9c4be;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #141312; --carte: #1e1c1b; --texte: #f1eeea; --doux: #a59e96; --trait: #34302d;
+  --accent: #b394ff; --accent-doux: #2a2238; --ok: #5fd39a;
+  --tiktok: #f1eeea; --facebook: #6aa5ff; --instagram: #f07ac0; --x: #c9c4be;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fond); color: var(--texte); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 1.15rem; margin: 36px 0 12px; }
+.sous { color: var(--doux); margin: 0; }
+.note { color: var(--doux); font-size: 0.85rem; margin-top: 8px; }
+.filtres { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; }
+.filtres button { font: inherit; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--trait); background: var(--carte); color: var(--texte); cursor: pointer; }
+.filtres button:hover { border-color: var(--accent); }
+.filtres button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.grille { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.grille.larges { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.carte { background: var(--carte); border: 1px solid var(--trait); border-radius: var(--rayon); padding: 14px 16px; }
+.chiffre { font-size: 1.7rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+.etiquette { color: var(--doux); font-size: 0.85rem; }
+.compte-tete { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pastille { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.langue { font-size: 0.75rem; border: 1px solid var(--trait); border-radius: 6px; padding: 0 6px; color: var(--doux); }
+.compte-nom a { color: var(--texte); font-weight: 600; text-decoration: none; }
+.compte-nom a:hover { text-decoration: underline; }
+.mini { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 10px; margin-top: 10px; }
+.mini div { font-variant-numeric: tabular-nums; }
+.mini b { display: block; font-size: 1.05rem; }
+.mini span { color: var(--doux); font-size: 0.78rem; }
+.absent { margin-top: 10px; font-size: 0.85rem; color: var(--doux); background: var(--accent-doux); border-radius: 8px; padding: 6px 10px; }
+.liste { display: flex; flex-direction: column; gap: 8px; }
+.ligne { background: var(--carte); border: 1px solid var(--trait); border-radius: 12px; padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; }
+.ligne .titre { flex: 1 1 240px; min-width: 0; }
+.ligne .titre small { display: block; color: var(--doux); }
+.ligne .stats { display: flex; flex-wrap: wrap; gap: 4px 14px; font-variant-numeric: tabular-nums; color: var(--doux); font-size: 0.9rem; }
+.ligne .stats b { color: var(--texte); }
+.rang { font-weight: 700; color: var(--accent); width: 2ch; }
+.puces { display: flex; flex-wrap: wrap; gap: 6px; }
+.puce { font-size: 0.8rem; border-radius: 999px; padding: 1px 9px; border: 1px solid var(--trait); }
+table { width: 100%; border-collapse: collapse; background: var(--carte); border: 1px solid var(--trait); border-radius: var(--rayon); overflow: hidden; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 8px 12px; border-bottom: 1px solid var(--trait); }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--doux); font-weight: 500; font-size: 0.85rem; }
+tr:last-child td { border-bottom: 0; }
+.vide { color: var(--doux); padding: 12px 0; }
+.plus { font: inherit; margin-top: 10px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--trait); background: var(--carte); color: var(--texte); cursor: pointer; }
+.plus:hover { border-color: var(--accent); }
+footer { margin-top: 40px; color: var(--doux); font-size: 0.8rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Statistiques des réseaux</h1>
+  <p class="sous">Lumière Vitale (FR) et Lumina Vitae (EN) · <span id="maj">…</span></p>
+  <p class="note" id="note"></p>
+
+  <div class="filtres" role="group" aria-label="Langue">
+    <button data-langue="tout" aria-pressed="true">Tout</button>
+    <button data-langue="fr" aria-pressed="false">Français</button>
+    <button data-langue="en" aria-pressed="false">Anglais</button>
+  </div>
+
+  <h2>En résumé</h2>
+  <div class="grille" id="totaux"></div>
+
+  <h2>Par compte</h2>
+  <div class="grille larges" id="comptes"></div>
+
+  <h2>Meilleures vidéos</h2>
+  <div class="liste" id="top"></div>
+
+  <h2>Toutes les publications</h2>
+  <div class="liste" id="pubs"></div>
+  <button class="plus" id="voir-plus" hidden>Voir plus</button>
+
+  <h2>Évolution</h2>
+  <div id="evolution"></div>
+
+  <footer>Chiffres relevés dans TikTok, Meta Business Suite et X le 1er et le 15 du mois. Les vues X d'un thread ne comptent que le premier post.</footer>
+</main>
+<script>
+const COULEUR = { TikTok: 'var(--tiktok)', Facebook: 'var(--facebook)', Instagram: 'var(--instagram)', X: 'var(--x)' };
+const nf = new Intl.NumberFormat('fr-FR');
+const n = v => v == null ? '–' : nf.format(v);
+const jour = iso => new Date(iso).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Europe/Paris' });
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let D = null, langue = 'tout', limite = 20;
+try { langue = localStorage.getItem('langue') || 'tout'; } catch (e) {}
+
+const comptesVus = () => D.comptes.filter(c => langue === 'tout' || c.langue === langue);
+
+function totaux() {
+  const C = comptesVus(); const s = k => C.reduce((a, c) => a + (c.totaux[k] || 0), 0);
+  const cartes = [['Abonnés', C.reduce((a, c) => a + (c.abonnes || 0), 0)], ['Vues', s('vues')], ['J’aime', s('jaime')], ['Commentaires', s('commentaires')], ['Partages', s('partages')], ['Publications', s('publications')]];
+  document.getElementById('totaux').innerHTML = cartes.map(([e, v]) => `<div class="carte"><div class="chiffre">${n(v)}</div><div class="etiquette">${e}</div></div>`).join('');
+}
+
+function comptes() {
+  document.getElementById('comptes').innerHTML = comptesVus().map(c => `
+    <div class="carte">
+      <div class="compte-tete"><span class="pastille" style="background:${COULEUR[c.reseau]}"></span><b>${esc(c.reseau)}</b><span class="langue">${c.langue.toUpperCase()}</span></div>
+      <div class="compte-nom"><a href="${esc(c.lien)}" target="_blank" rel="noopener">${esc(c.nom)}</a></div>
+      <div class="mini">
+        <div><b>${n(c.abonnes)}</b><span>abonnés</span></div>
+        <div><b>${c.detail ? n(c.totaux.vues) : '–'}</b><span>vues</span></div>
+        <div><b>${c.detail ? n(c.totaux.publications) : '–'}</b><span>publications</span></div>
+        <div><b>${c.detail ? n(c.totaux.jaime) : '–'}</b><span>j’aime</span></div>
+        <div><b>${c.detail ? n(c.totaux.commentaires) : '–'}</b><span>commentaires</span></div>
+        <div><b>${c.detail ? n(c.totaux.partages) : '–'}</b><span>partages</span></div>
+      </div>
+      ${c.detail ? '' : '<div class="absent">Détail par publication pas encore relevé.</div>'}
+    </div>`).join('');
+}
+
+function top() {
+  const G = new Map();
+  for (const c of comptesVus()) for (const p of c.publications) {
+    if (!p.num) continue;
+    const g = G.get(p.num) || { num: p.num, sujet: p.sujet, vues: 0, jaime: 0, commentaires: 0, par: [] };
+    if (c.langue === 'fr' || langue === 'en') g.sujet = p.sujet;
+    g.vues += p.vues || 0; g.jaime += p.jaime || 0; g.commentaires += p.commentaires || 0;
+    g.par.push({ reseau: c.reseau, langue: c.langue, vues: p.vues || 0 });
+    G.set(p.num, g);
+  }
+  const L = [...G.values()].sort((a, b) => b.vues - a.vues || b.jaime - a.jaime).slice(0, 10);
+  document.getElementById('top').innerHTML = L.length ? L.map((g, i) => `
+    <div class="ligne">
+      <span class="rang">${i + 1}</span>
+      <div class="titre">${esc(g.sujet)}<small>Vidéo ${String(g.num).padStart(2, '0')}</small></div>
+      <div class="stats"><span><b>${n(g.vues)}</b> vues</span><span><b>${n(g.jaime)}</b> j’aime</span><span><b>${n(g.commentaires)}</b> comm.</span></div>
+      <div class="puces">${g.par.sort((a, b) => b.vues - a.vues).map(x => `<span class="puce" style="border-color:${COULEUR[x.reseau]}">${x.reseau} ${x.langue.toUpperCase()} · ${n(x.vues)}</span>`).join('')}</div>
+    </div>`).join('') : '<div class="vide">Aucune vidéo publiée pour l’instant.</div>';
+}
+
+function pubs() {
+  const L = comptesVus().flatMap(c => c.publications.map(p => ({ ...p, c }))).sort((a, b) => b.date.localeCompare(a.date));
+  const bouton = document.getElementById('voir-plus');
+  bouton.hidden = L.length <= limite;
+  document.getElementById('pubs').innerHTML = L.length ? L.slice(0, limite).map(p => `
+    <div class="ligne">
+      <span class="pastille" style="background:${COULEUR[p.c.reseau]}"></span>
+      <div class="titre">${p.lien ? `<a href="${esc(p.lien)}" target="_blank" rel="noopener" style="color:inherit">${esc(p.sujet)}</a>` : esc(p.sujet)}
+        <small>${p.c.reseau} ${p.c.langue.toUpperCase()} · ${p.type === 'thread' ? 'thread · ' : ''}${jour(p.date)}</small></div>
+      <div class="stats"><span><b>${n(p.vues)}</b> vues</span><span><b>${n(p.jaime)}</b> j’aime</span><span><b>${n(p.commentaires)}</b> comm.</span><span><b>${n(p.partages)}</b> partages</span></div>
+    </div>`).join('') : '<div class="vide">Aucune publication relevée.</div>';
+}
+
+function evolution() {
+  const ids = new Set(comptesVus().map(c => c.id));
+  const lignes = D.historique.map(h => {
+    const v = Object.entries(h.comptes).filter(([id]) => ids.has(id)).map(([, x]) => x);
+    const s = k => v.reduce((a, x) => a + (x[k] || 0), 0);
+    return `<tr><td>${new Date(h.date + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</td><td>${n(s('abonnes'))}</td><td>${n(s('vues'))}</td><td>${n(s('jaime'))}</td><td>${n(s('commentaires'))}</td></tr>`;
+  }).reverse().join('');
+  document.getElementById('evolution').innerHTML = `<table><thead><tr><th>Relevé</th><th>Abonnés</th><th>Vues</th><th>J’aime</th><th>Comm.</th></tr></thead><tbody>${lignes}</tbody></table>`
+    + (D.historique.length < 2 ? '<p class="note">La courbe se remplira au fil des relevés (le 1er et le 15 de chaque mois).</p>' : '');
+}
+
+function tout() {
+  document.querySelectorAll('.filtres button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.langue === langue)));
+  totaux(); comptes(); top(); pubs(); evolution();
+}
+
+document.querySelectorAll('.filtres button').forEach(b => b.addEventListener('click', () => {
+  langue = b.dataset.langue; limite = 20;
+  try { localStorage.setItem('langue', langue); } catch (e) {}
+  tout();
+}));
+document.getElementById('voir-plus').addEventListener('click', () => { limite += 30; pubs(); });
+
+fetch('donnees.json', { cache: 'no-store' }).then(r => r.json()).then(d => {
+  D = d;
+  document.getElementById('maj').textContent = 'dernier relevé le ' + new Date(d.maj + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  document.getElementById('note').textContent = d.note || '';
+  tout();
+}).catch(() => { document.getElementById('maj').textContent = 'données introuvables'; });
+</script>
+</body>
+</html>
