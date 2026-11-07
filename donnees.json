@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-06",
- "releve_le": "2026-11-06T16:41:34.060Z",
+ "maj": "2026-11-07",
+ "releve_le": "2026-11-07T07:40:40.290Z",
  "note": "",
  "colonnes": [
   "tiktok",
@@ -21,6 +21,16 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704733824327929110",
+     "vues": 76,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 12,
+     "sujet": "Force de la poigne"
+    },
+    {
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703862733531335958",
      "vues": 80,
@@ -32,9 +42,9 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 80,
-    "jaime": 3,
+    "publications": 2,
+    "vues": 156,
+    "jaime": 5,
     "commentaires": 0,
     "partages": 0
    }
@@ -49,6 +59,16 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753385030962454",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 12,
+     "sujet": "Grip strength"
+    },
+    {
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542",
      "vues": 0,
@@ -60,7 +80,7 @@
     }
    ],
    "totaux": {
-    "publications": 1,
+    "publications": 2,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -77,9 +97,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/1786462109244868/",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 12,
+     "sujet": "Force de la poigne"
+    },
+    {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 251,
+     "vues": 257,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -88,8 +118,8 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 251,
+    "publications": 2,
+    "vues": 257,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -105,9 +135,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/2485714275256253/",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 12,
+     "sujet": "Grip strength"
+    },
+    {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2224056648488695/",
-     "vues": 199,
+     "vues": 202,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -116,8 +156,8 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 199,
+    "publications": 2,
+    "vues": 202,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -133,6 +173,16 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfaQUwJDTWB/",
+     "vues": 111,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 12,
+     "sujet": "Force de la poigne"
+    },
+    {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfXrf6Vlq5_/",
      "vues": 121,
@@ -144,8 +194,8 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 121,
+    "publications": 2,
+    "vues": 232,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -161,6 +211,16 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-06T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfaQT2cCaQF/",
+     "vues": 165,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "num": 12,
+     "sujet": "Grip strength"
+    },
+    {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/",
      "vues": 0,
@@ -172,9 +232,9 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 0,
-    "jaime": 0,
+    "publications": 2,
+    "vues": 165,
+    "jaime": 2,
     "commentaires": 0,
     "partages": 0
    }
@@ -199,6 +259,17 @@
      "partages": 0,
      "num": 1,
      "sujet": "10 000 pas"
+    },
+    {
+     "date": "2026-11-06T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2118772907161858311",
+     "type": "court",
+     "texte": "Légumes et viande d'abord, pain ensuite.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Légumes et viande d'abord, pain ensuite."
     },
     {
      "date": "2026-11-06T11:30:00.000Z",
@@ -238,7 +309,7 @@
     }
    ],
    "totaux": {
-    "publications": 4,
+    "publications": 5,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -254,6 +325,17 @@
    "abonnes": 1,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-06T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2118772905492230342",
+     "type": "court",
+     "texte": "Vegetables and protein first, bread last",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Vegetables and protein first, bread last"
+    },
     {
      "date": "2026-11-06T11:30:01.000Z",
      "lien": "https://x.com/luminavitae_/status/2118667212437463399",
@@ -292,7 +374,7 @@
     }
    ],
    "totaux": {
-    "publications": 3,
+    "publications": 4,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -333,6 +415,58 @@
    }
   },
   {
+   "num": 12,
+   "sujet": {
+    "fr": "Force de la poigne",
+    "en": "Grip strength"
+   },
+   "date": "2026-11-06",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 76,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704733824327929110"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753385030962454"
+    },
+    "facebook-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1786462109244868/"
+    },
+    "facebook-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/2485714275256253/"
+    },
+    "instagram-fr": {
+     "vues": 111,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfaQUwJDTWB/"
+    },
+    "instagram-en": {
+     "vues": 165,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfaQT2cCaQF/"
+    }
+   }
+  },
+  {
    "num": 2,
    "sujet": {
     "fr": "Marcher après manger",
@@ -355,14 +489,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 251,
+     "vues": 257,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1562875678977214/"
     },
     "facebook-en": {
-     "vues": 199,
+     "vues": 202,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -451,6 +585,59 @@
      "abonnes": 0,
      "vues": 0,
      "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 1,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-07",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 156,
+     "jaime": 5,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 257,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 202,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 1,
+     "vues": 232,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 0,
+     "vues": 165,
+     "jaime": 2,
      "commentaires": 0
     },
     "x-fr": {
