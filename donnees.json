@@ -1,7 +1,10 @@
 {
- "maj": "2026-11-07",
- "releve_le": "2026-11-07T07:40:40.290Z",
- "note": "",
+ "chaine": "lumiere",
+ "titre": "Lumière Vitale (FR) et Lumina Vitae (EN)",
+ "langues": [
+  "fr",
+  "en"
+ ],
  "colonnes": [
   "tiktok",
   "facebook",
@@ -9,6 +12,10 @@
   "xvideo",
   "xthread"
  ],
+ "note_x": "Sur X, la vidéo et le thread du même sujet sont dans deux colonnes.",
+ "maj": "2026-11-07",
+ "releve_le": "2026-11-07T07:40:40.290Z",
+ "note": "",
  "nonReleve": [],
  "comptes": [
   {

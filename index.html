@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Stats Lumière Vitale</title>
+<title>Stats des chaînes</title>
 <style>
 :root {
   --fond: #f6f4f1; --carte: #ffffff; --texte: #1d1b19; --doux: #6b655e; --trait: #e4dfd8; --trait-fort: #cfc8bf;
@@ -34,6 +34,10 @@ h2 { font-size: 1.15rem; margin: 32px 0 6px; }
 #recharger { font: inherit; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--trait-fort); background: var(--carte); color: var(--texte); cursor: pointer; }
 #recharger:hover { border-color: var(--fr); }
 #recharger:disabled { opacity: 0.6; cursor: wait; }
+.chaines { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 12px; }
+.chaines button { font: inherit; font-weight: 600; padding: 7px 16px; border-radius: 10px; border: 1px solid var(--trait-fort); background: var(--carte); color: var(--texte); cursor: pointer; }
+.chaines button:hover { border-color: var(--fr); }
+.chaines button[aria-pressed="true"] { background: var(--texte); color: var(--fond); border-color: var(--texte); }
 .legende { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 14px 0 0; font-size: 0.85rem; color: var(--doux); }
 .tag { display: inline-block; font-size: 0.72rem; font-weight: 700; border-radius: 5px; padding: 0 5px; }
 .tag.fr { color: var(--fr); background: var(--fr-fond); }
@@ -73,8 +77,12 @@ footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
 <body>
 <main>
   <h1>Statistiques des réseaux</h1>
+  <nav class="chaines" aria-label="Chaîne">
+    <button type="button" data-chaine="lumiere">Lumière Vitale · Lumina Vitae</button>
+    <button type="button" data-chaine="tete-claire">Tête Claire</button>
+  </nav>
   <div class="entete">
-    <p class="sous">Lumière Vitale <span class="tag fr">FR</span> et Lumina Vitae <span class="tag en">EN</span> · <span id="maj">…</span></p>
+    <p class="sous"><span id="titre"></span> · <span id="maj">…</span></p>
     <button id="recharger" type="button" title="Réafficher les derniers chiffres publiés">↻ Recharger</button>
   </div>
   <p class="aide" id="charge"></p>
@@ -90,22 +98,25 @@ footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
   <div class="boite"><table id="resume"></table></div>
 
   <h2>Par vidéo</h2>
-  <p class="aide">Une ligne par sujet, la plus récente en haut. Sur X, la vidéo et le thread du même sujet sont dans deux colonnes. Clic sur un chiffre : ouvre la publication.</p>
+  <p class="aide">Une ligne par sujet, la plus récente en haut. <span id="note-x"></span> Clic sur un chiffre : ouvre la publication.</p>
   <div class="fleches"><button data-sens="-1" aria-label="Défiler à gauche">←</button><button data-sens="1" aria-label="Défiler à droite">→</button></div>
   <div class="boite"><table id="videos"></table></div>
 
   <h2>Évolution</h2>
-  <p class="aide">Un relevé le 1er et le 15 de chaque mois.</p>
+  <p class="aide">Une ligne par relevé, le plus récent en haut.</p>
   <div class="fleches"><button data-sens="-1" aria-label="Défiler à gauche">←</button><button data-sens="1" aria-label="Défiler à droite">→</button></div>
   <div class="boite"><table id="evolution"></table></div>
   <p class="note" id="note"></p>
 
-  <footer>Chiffres relevés dans TikTok, Meta Business Suite et X. Les vues d'un thread X sont celles de son premier post.</footer>
+  <footer>Chiffres relevés sur les pages publiques de TikTok, Facebook, Instagram et X. Les vues d'un thread X sont celles de son premier post.</footer>
 </main>
 <script>
 const RESEAUX = [['tiktok', 'TikTok'], ['facebook', 'Facebook'], ['instagram', 'Instagram'], ['x', 'X']];
-const COLS = [['tiktok', 'TikTok'], ['facebook', 'Facebook'], ['instagram', 'Instagram'], ['xvideo', 'X vidéo'], ['xthread', 'X thread']];
-const L = ['fr', 'en'];
+const NOMS_COL = { tiktok: 'TikTok', facebook: 'Facebook', instagram: 'Instagram', xvideo: 'X vidéo', xthread: 'X thread', x: 'X' };
+const CHAINES = { lumiere: 'donnees.json', 'tete-claire': 'donnees-tete-claire.json' };
+let COLS = [], L = ['fr', 'en'];
+const tete = () => L.map((l, i) => `<th class="${l}${i === 0 ? ' groupe' : ''}">${l.toUpperCase()}</th>`).join('');
+const cl = (l, i) => `${l}${i === 0 ? ' debut' : ''}`;
 const nf = new Intl.NumberFormat('fr-FR');
 const n = v => v == null ? '–' : nf.format(v);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -119,52 +130,53 @@ function resume() {
   const compte = (r, l) => D.comptes.find(c => c.reseau.toLowerCase() === r && c.langue === l);
   const MET = [['abonnes', 'Abonnés'], ['vues', 'Vues'], ['jaime', 'J’aime'], ['commentaires', 'Commentaires'], ['partages', 'Partages']];
   const val = (c, k) => !c ? null : k === 'abonnes' ? c.abonnes : (c.detail ? c.totaux[k] : null);
-  let h = '<thead><tr><th class="fixe" rowspan="2">Réseau</th>' + MET.map(([, t]) => `<th class="groupe" colspan="2">${t}</th>`).join('') + '</tr><tr>'
-    + MET.map(() => '<th class="fr groupe">FR</th><th class="en">EN</th>').join('') + '</tr></thead><tbody>';
+  let h = '<thead><tr><th class="fixe" rowspan="2">Réseau</th>' + MET.map(([, t]) => `<th class="groupe" colspan="${L.length}">${t}</th>`).join('') + '</tr><tr>'
+    + MET.map(tete).join('') + '</tr></thead><tbody>';
   const tot = {};
   for (const [r, nom] of RESEAUX) {
     h += `<tr><td class="fixe"><span class="sujet">${nom}</span><span class="date">${L.map(l => esc(compte(r, l)?.nom || '')).join(' · ')}</span></td>`;
-    for (const [k] of MET) for (const l of L) {
+    for (const [k] of MET) L.forEach((l, i) => {
       const c = compte(r, l), v = val(c, k);
       tot[k + l] = (tot[k + l] || 0) + (v || 0);
-      h += `<td class="${l}${l === 'fr' ? ' debut' : ''}">${v == null ? '<span class="nr">non relevé</span>' : `<span class="v">${n(v)}</span>`}</td>`;
-    }
+      h += `<td class="${cl(l, i)}">${v == null ? '<span class="nr">non relevé</span>' : `<span class="v">${n(v)}</span>`}</td>`;
+    });
     h += '</tr>';
   }
-  h += '<tr class="total"><td class="fixe">Total</td>' + MET.map(([k]) => L.map(l => `<td class="${l}${l === 'fr' ? ' debut' : ''}">${n(tot[k + l])}</td>`).join('')).join('') + '</tr>';
+  h += '<tr class="total"><td class="fixe">Total</td>' + MET.map(([k]) => L.map((l, i) => `<td class="${cl(l, i)}">${n(tot[k + l])}</td>`).join('')).join('') + '</tr>';
   document.getElementById('resume').innerHTML = h + '</tbody>';
 }
 
 function videos() {
   const nonRel = new Set(D.nonReleve);
   const max = Math.max(0, ...D.videos.flatMap(v => Object.values(v.cellules).map(c => c.vues || 0)));
-  let h = '<thead><tr><th class="fixe" rowspan="2">Vidéo</th>' + COLS.map(([, t]) => `<th class="groupe" colspan="2">${t}</th>`).join('') + '<th class="groupe" rowspan="2">Total vues</th></tr><tr>'
-    + COLS.map(() => '<th class="fr groupe">FR</th><th class="en">EN</th>').join('') + '</tr></thead><tbody>';
+  let h = '<thead><tr><th class="fixe" rowspan="2">Vidéo</th>' + COLS.map(([, t]) => `<th class="groupe" colspan="${L.length}">${t}</th>`).join('') + '<th class="groupe" rowspan="2">Total vues</th></tr><tr>'
+    + COLS.map(tete).join('') + '</tr></thead><tbody>';
   for (const v of D.videos) {
     let total = 0;
-    h += `<tr><td class="fixe"><span class="sujet"><span class="num">${String(v.num).padStart(2, '0')}</span>${esc(v.sujet.fr)}</span><span class="sujet-en">${esc(v.sujet.en)}</span><span class="date">${jourCourt(v.date)}</span></td>`;
-    for (const [col] of COLS) for (const l of L) {
+    h += `<tr><td class="fixe"><span class="sujet"><span class="num">${String(v.num).padStart(2, '0')}</span>${esc(v.sujet.fr)}</span>${L.includes('en') ? `<span class="sujet-en">${esc(v.sujet.en)}</span>` : ''}<span class="date">${jourCourt(v.date)}</span></td>`;
+    for (const [col] of COLS) L.forEach((l, i) => {
       const k = col + '-' + l, c = v.cellules[k];
-      const cls = `${l}${l === 'fr' ? ' debut' : ''}`;
-      if (!c) { h += `<td class="${cls}">${nonRel.has(k) ? '<span class="nr">non relevé</span>' : '<span class="rien">—</span>'}</td>`; continue; }
+      const cls = cl(l, i);
+      const rk = (col.startsWith('x') ? 'x' : col) + '-' + l;
+      if (!c) { h += `<td class="${cls}">${nonRel.has(rk) ? '<span class="nr">non relevé</span>' : '<span class="rien">—</span>'}</td>`; return; }
       total += c.vues || 0;
       const chiffre = c.lien ? `<a href="${esc(c.lien)}" target="_blank" rel="noopener">${n(c.vues)}</a>` : n(c.vues);
       h += `<td class="${cls}" style="${chaleur(c.vues, max)}"><span class="v">${chiffre}</span><span class="d">♥ ${n(c.jaime)} · 💬 ${n(c.commentaires)} · ↗ ${n(c.partages)}</span></td>`;
-    }
+    });
     h += `<td class="tot debut">${n(total)}</td></tr>`;
   }
-  if (!D.videos.length) h += `<tr><td class="fixe" colspan="${COLS.length * 2 + 2}">Aucune vidéo publiée pour l’instant.</td></tr>`;
+  if (!D.videos.length) h += `<tr><td class="fixe" colspan="${COLS.length * L.length + 2}">Aucune vidéo publiée pour l’instant.</td></tr>`;
   document.getElementById('videos').innerHTML = h + '</tbody>';
 }
 
 function evolution() {
   const somme = (h, l, k) => Object.entries(h.comptes).filter(([id]) => id.endsWith('-' + l)).reduce((a, [, x]) => a + (x[k] || 0), 0);
   const MET = [['abonnes', 'Abonnés'], ['vues', 'Vues'], ['jaime', 'J’aime'], ['commentaires', 'Commentaires']];
-  let h = '<thead><tr><th class="fixe" rowspan="2">Relevé</th>' + MET.map(([, t]) => `<th class="groupe" colspan="2">${t}</th>`).join('') + '</tr><tr>'
-    + MET.map(() => '<th class="fr groupe">FR</th><th class="en">EN</th>').join('') + '</tr></thead><tbody>';
+  let h = '<thead><tr><th class="fixe" rowspan="2">Relevé</th>' + MET.map(([, t]) => `<th class="groupe" colspan="${L.length}">${t}</th>`).join('') + '</tr><tr>'
+    + MET.map(tete).join('') + '</tr></thead><tbody>';
   for (const r of [...D.historique].reverse()) {
     h += `<tr><td class="fixe">${new Date(r.date + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' })}</td>`
-      + MET.map(([k]) => L.map(l => `<td class="${l}${l === 'fr' ? ' debut' : ''}"><span class="v">${n(somme(r, l, k))}</span></td>`).join('')).join('') + '</tr>';
+      + MET.map(([k]) => L.map((l, i) => `<td class="${cl(l, i)}"><span class="v">${n(somme(r, l, k))}</span></td>`).join('')).join('') + '</tr>';
   }
   document.getElementById('evolution').innerHTML = h + '</tbody>';
 }
@@ -185,10 +197,17 @@ function defilement() {
 }
 
 let defile = false;
+const chaine = () => CHAINES[location.hash.slice(1)] ? location.hash.slice(1) : 'lumiere';
 function charger() {
   const b = document.getElementById('recharger'); b.disabled = true;
-  return fetch('donnees.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(d => {
+  const ch = chaine();
+  document.querySelectorAll('.chaines button').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.chaine === ch)));
+  return fetch(CHAINES[ch] + '?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(d => {
     D = d;
+    L = d.langues || ['fr', 'en'];
+    COLS = (d.colonnes || ['tiktok', 'facebook', 'instagram', 'xvideo', 'xthread']).map(c => [c, NOMS_COL[c] || c]);
+    document.getElementById('titre').textContent = d.titre || 'Lumière Vitale (FR) et Lumina Vitae (EN)';
+    document.getElementById('note-x').textContent = d.note_x || '';
     const quand = d.releve_le ? new Date(d.releve_le).toLocaleString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' }).replace(' ', ' ')
       : new Date(d.maj + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
     document.getElementById('maj').textContent = 'dernier relevé le ' + quand;
@@ -200,6 +219,12 @@ function charger() {
     .finally(() => { b.disabled = false; });
 }
 document.getElementById('recharger').addEventListener('click', charger);
+document.querySelectorAll('.chaines button').forEach(x => x.addEventListener('click', () => {
+  const ch = x.dataset.chaine;
+  history.replaceState(null, '', ch === 'lumiere' ? location.pathname : '#' + ch);
+  charger();
+}));
+addEventListener('hashchange', charger);
 charger();
 </script>
 </body>

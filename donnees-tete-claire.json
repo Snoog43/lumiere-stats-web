@@ -1,0 +1,120 @@
+{
+ "chaine": "tete-claire",
+ "titre": "Tête Claire (FR)",
+ "langues": [
+  "fr"
+ ],
+ "colonnes": [
+  "tiktok",
+  "facebook",
+  "instagram",
+  "x"
+ ],
+ "note_x": "",
+ "maj": "2026-11-08",
+ "releve_le": "2026-11-08T08:47:54.752Z",
+ "note": "",
+ "nonReleve": [],
+ "comptes": [
+  {
+   "id": "tiktok-fr",
+   "reseau": "TikTok",
+   "langue": "fr",
+   "nom": "@comprendtoi0",
+   "lien": "https://www.tiktok.com/@comprendtoi0",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "facebook-fr",
+   "reseau": "Facebook",
+   "langue": "fr",
+   "nom": "Tête Claire",
+   "lien": "https://www.facebook.com/profile.php?id=61596336331806",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "instagram-fr",
+   "reseau": "Instagram",
+   "langue": "fr",
+   "nom": "@teteclaire.psy",
+   "lien": "https://www.instagram.com/teteclaire.psy/",
+   "abonnes": 0,
+   "detail": true,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  },
+  {
+   "id": "x-fr",
+   "reseau": "X",
+   "langue": "fr",
+   "nom": "@teteclaire_psy",
+   "lien": "https://x.com/teteclaire_psy",
+   "abonnes": 3,
+   "detail": true,
+   "publications": [],
+   "totaux": {
+    "publications": 0,
+    "vues": 0,
+    "jaime": 0,
+    "commentaires": 0,
+    "partages": 0
+   }
+  }
+ ],
+ "videos": [],
+ "historique": [
+  {
+   "date": "2026-11-08",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 3,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  }
+ ]
+}
