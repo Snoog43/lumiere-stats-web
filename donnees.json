@@ -13,8 +13,8 @@
   "xthread"
  ],
  "note_x": "Sur X, la vidéo et le thread du même sujet sont dans deux colonnes.",
- "maj": "2026-11-08",
- "releve_le": "2026-11-08T08:59:51.974Z",
+ "maj": "2026-11-09",
+ "releve_le": "2026-11-09T12:43:28.474Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -28,9 +28,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-08T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703863119973584150",
+     "vues": 76,
+     "jaime": 5,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10 000 pas"
+    },
+    {
      "date": "2026-11-07T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7704733311956045078",
-     "vues": 82,
+     "vues": 83,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -59,9 +69,9 @@
     }
    ],
    "totaux": {
-    "publications": 3,
-    "vues": 238,
-    "jaime": 5,
+    "publications": 4,
+    "vues": 315,
+    "jaime": 10,
     "commentaires": 0,
     "partages": 0
    }
@@ -75,6 +85,16 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-08T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876306403921174",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10,000 steps"
+    },
     {
      "date": "2026-11-07T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753668012412182",
@@ -107,7 +127,7 @@
     }
    ],
    "totaux": {
-    "publications": 3,
+    "publications": 4,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -124,9 +144,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-08T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/1639162277991688/",
+     "vues": 238,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10 000 pas"
+    },
+    {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.facebook.com/reel/28119581957718602/",
-     "vues": 203,
+     "vues": 205,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -136,7 +166,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1786462109244868/",
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -146,7 +176,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 260,
+     "vues": 262,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -155,8 +185,8 @@
     }
    ],
    "totaux": {
-    "publications": 3,
-    "vues": 464,
+    "publications": 4,
+    "vues": 707,
     "jaime": 2,
     "commentaires": 0,
     "partages": 0
@@ -172,9 +202,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-08T18:30:00Z",
+     "lien": "https://www.facebook.com/reel/2103407973625530/",
+     "vues": 318,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 1,
+     "sujet": "10,000 steps"
+    },
+    {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1953586652283954/",
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -184,7 +224,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2485714275256253/",
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -194,7 +234,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2224056648488695/",
-     "vues": 206,
+     "vues": 207,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -203,8 +243,8 @@
     }
    ],
    "totaux": {
-    "publications": 3,
-    "vues": 207,
+    "publications": 4,
+    "vues": 528,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -219,6 +259,16 @@
    "abonnes": 2,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-08T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DffZ4_lirQM/",
+     "vues": 157,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "num": 1,
+     "sujet": "10 000 pas"
+    },
     {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfc1FlYkpUU/",
@@ -251,9 +301,9 @@
     }
    ],
    "totaux": {
-    "publications": 3,
-    "vues": 371,
-    "jaime": 1,
+    "publications": 4,
+    "vues": 528,
+    "jaime": 2,
     "commentaires": 0,
     "partages": 0
    }
@@ -267,6 +317,16 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-08T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DffZ6BSErUl/",
+     "vues": 183,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 1,
+     "sujet": "10,000 steps"
+    },
     {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/Dfc1GyvDbvp/",
@@ -299,8 +359,8 @@
     }
    ],
    "totaux": {
-    "publications": 3,
-    "vues": 165,
+    "publications": 4,
+    "vues": 348,
     "jaime": 2,
     "commentaires": 0,
     "partages": 0
@@ -316,21 +376,10 @@
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-07T18:30:00.000Z",
-     "lien": "https://x.com/LumiereVitale/status/2119135293903396893",
-     "type": "court",
-     "texte": "Un peu de vinaigre avec du pain",
-     "vues": 0,
-     "jaime": 0,
-     "commentaires": 0,
-     "partages": 0,
-     "sujet": "Un peu de vinaigre avec du pain"
-    },
-    {
      "date": "2026-11-01T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2116960966357201391",
      "type": "thread",
-     "texte": "Tu n'as pas besoin de 10 000 pas par jour.",
+     "texte": "Tu n'as pas besoin de 10 000 p",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -339,21 +388,43 @@
      "sujet": "10 000 pas"
     },
     {
-     "date": "2026-11-06T18:30:00.000Z",
-     "lien": "https://x.com/LumiereVitale/status/2118772907161858311",
+     "date": "2026-11-08T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2119497683211620613",
      "type": "court",
-     "texte": "Légumes et viande d'abord, pain ensuite.",
+     "texte": "« Un verre de vin par jour, c'",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Légumes et viande d'abord, pain ensuite."
+     "sujet": "« Un verre de vin par jour, c'"
+    },
+    {
+     "date": "2026-11-07T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2119135293903396893",
+     "type": "court",
+     "texte": "Un peu de vinaigre avec du pai",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Un peu de vinaigre avec du pai"
+    },
+    {
+     "date": "2026-11-06T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2118772907161858311",
+     "type": "court",
+     "texte": "Légumes et viande d'abord, pai",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Légumes et viande d'abord, pai"
     },
     {
      "date": "2026-11-06T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118667208918208529",
      "type": "video",
-     "texte": "Marcher 10 minutes après chaque repas bat 30 minutes",
+     "texte": "Marcher 10 minutes après chaqu",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -365,7 +436,7 @@
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118410517387849802",
      "type": "thread",
-     "texte": "Marcher 10 minutes après chaque repas fait plus pour ta glycémie que 30 minutes d'un coup.",
+     "texte": "Marcher 10 minutes après chaqu",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -374,10 +445,10 @@
      "sujet": "Marcher après manger"
     },
     {
-     "date": "2026-11-03T11:30:01.000Z",
+     "date": "2026-11-03T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2117580049650205061",
      "type": "video",
-     "texte": "Arrête de viser 10 000 pas par jour",
+     "texte": "Arrête de viser 10 000 pas par",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -387,7 +458,7 @@
     }
    ],
    "totaux": {
-    "publications": 6,
+    "publications": 7,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -400,36 +471,47 @@
    "langue": "en",
    "nom": "@luminavitae_",
    "lien": "https://x.com/luminavitae_",
-   "abonnes": 1,
+   "abonnes": 2,
    "detail": true,
    "publications": [
     {
-     "date": "2026-11-07T18:30:00.000Z",
-     "lien": "https://x.com/luminavitae_/status/2119135296520421860",
+     "date": "2026-11-08T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2119497681135698139",
      "type": "court",
-     "texte": "A little vinegar with white bread",
+     "texte": "\"A glass of wine a day is good",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "A little vinegar with white bread"
+     "sujet": "\"A glass of wine a day is good"
+    },
+    {
+     "date": "2026-11-07T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2119135296520421860",
+     "type": "court",
+     "texte": "A little vinegar with white br",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "A little vinegar with white br"
     },
     {
      "date": "2026-11-06T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118772905492230342",
      "type": "court",
-     "texte": "Vegetables and protein first, bread last",
+     "texte": "Vegetables and protein first, ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Vegetables and protein first, bread last"
+     "sujet": "Vegetables and protein first, "
     },
     {
-     "date": "2026-11-06T11:30:01.000Z",
+     "date": "2026-11-06T11:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118667212437463399",
      "type": "video",
-     "texte": "Walking 10 minutes after each meal beats 30 minutes",
+     "texte": "Walking 10 minutes after each ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -438,10 +520,10 @@
      "sujet": "Walking after meals"
     },
     {
-     "date": "2026-11-05T18:30:01.000Z",
+     "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118410520948515023",
      "type": "thread",
-     "texte": "Walking 10 minutes after each meal does more for your blood sugar than 30 minutes in one go.",
+     "texte": "Walking 10 minutes after each ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -453,7 +535,7 @@
      "date": "2026-11-03T11:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2117580046802284610",
      "type": "video",
-     "texte": "10,000 steps a day? That number comes from an ad, not a study.",
+     "texte": "10,000 steps a day? That numbe",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -463,7 +545,7 @@
     }
    ],
    "totaux": {
-    "publications": 5,
+    "publications": 6,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -480,6 +562,48 @@
    },
    "date": "2026-11-08",
    "cellules": {
+    "tiktok-fr": {
+     "vues": 76,
+     "jaime": 5,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703863119973584150"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876306403921174"
+    },
+    "facebook-fr": {
+     "vues": 238,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1639162277991688/"
+    },
+    "facebook-en": {
+     "vues": 318,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/2103407973625530/"
+    },
+    "instagram-fr": {
+     "vues": 157,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DffZ4_lirQM/"
+    },
+    "instagram-en": {
+     "vues": 183,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DffZ6BSErUl/"
+    },
     "xthread-fr": {
      "vues": 0,
      "jaime": 0,
@@ -512,7 +636,7 @@
    "date": "2026-11-07",
    "cellules": {
     "tiktok-fr": {
-     "vues": 82,
+     "vues": 83,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -526,14 +650,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753668012412182"
     },
     "facebook-fr": {
-     "vues": 203,
+     "vues": 205,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/28119581957718602/"
     },
     "facebook-en": {
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -578,14 +702,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753385030962454"
     },
     "facebook-fr": {
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1786462109244868/"
     },
     "facebook-en": {
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -630,14 +754,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 260,
+     "vues": 262,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1562875678977214/"
     },
     "facebook-en": {
-     "vues": 206,
+     "vues": 207,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -842,6 +966,59 @@
     },
     "x-en": {
      "abonnes": 1,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 315,
+     "jaime": 10,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 707,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 528,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 2,
+     "vues": 528,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 0,
+     "vues": 348,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 2,
      "vues": 0,
      "jaime": 0,
      "commentaires": 0
