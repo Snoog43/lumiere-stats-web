@@ -12,7 +12,7 @@
  ],
  "note_x": "",
  "maj": "2026-11-10",
- "releve_le": "2026-11-10T15:05:45.314Z",
+ "releve_le": "2026-11-10T18:57:30.982Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -26,6 +26,16 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-10T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703252792233238",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 3,
+     "sujet": "Ton esprit prédit le pire ? Vérifie-le"
+    },
+    {
      "date": "2026-11-09T18:00:00.000Z",
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703007144430870",
      "vues": 0,
@@ -37,7 +47,7 @@
     }
    ],
    "totaux": {
-    "publications": 1,
+    "publications": 2,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -50,9 +60,19 @@
    "langue": "fr",
    "nom": "Tête Claire",
    "lien": "https://www.facebook.com/profile.php?id=61596336331806",
-   "abonnes": 0,
+   "abonnes": 2,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-10T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1449375293267216",
+     "vues": 154,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 3,
+     "sujet": "Ton esprit prédit le pire ? Vérifie-le"
+    },
     {
      "date": "2026-11-09T18:00:00.000Z",
      "lien": "https://www.facebook.com/reel/1998590350814022",
@@ -65,8 +85,8 @@
     }
    ],
    "totaux": {
-    "publications": 1,
-    "vues": 248,
+    "publications": 2,
+    "vues": 402,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -99,6 +119,18 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-10T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2120214915482882436",
+     "type": "video",
+     "texte": "Ton esprit prédit le pire ? Vé",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 3,
+     "sujet": "Ton esprit prédit le pire ? Vérifie-le"
+    },
+    {
      "date": "2026-11-09T18:00:00.000Z",
      "lien": "https://x.com/teteclaire_psy/status/2119852523167088906",
      "type": "video",
@@ -112,7 +144,7 @@
     }
    ],
    "totaux": {
-    "publications": 1,
+    "publications": 2,
     "vues": 1,
     "jaime": 0,
     "commentaires": 0,
@@ -121,6 +153,36 @@
   }
  ],
  "videos": [
+  {
+   "num": 3,
+   "sujet": {
+    "fr": "Ton esprit prédit le pire ? Vérifie-le"
+   },
+   "date": "2026-11-10",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703252792233238"
+    },
+    "facebook-fr": {
+     "vues": 154,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1449375293267216"
+    },
+    "x-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2120214915482882436"
+    }
+   }
+  },
   {
    "num": 2,
    "sujet": {
@@ -192,8 +254,8 @@
      "commentaires": 0
     },
     "facebook-fr": {
-     "abonnes": 0,
-     "vues": 248,
+     "abonnes": 2,
+     "vues": 402,
      "jaime": 0,
      "commentaires": 0
     },
