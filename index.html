@@ -71,13 +71,6 @@ td.fixe { white-space: normal; min-width: 190px; max-width: 260px; }
 tr.total td { font-weight: 700; border-top: 2px solid var(--trait-fort); }
 td.tot { font-weight: 700; }
 .note { color: var(--doux); font-size: 0.85rem; margin-top: 8px; }
-.choix { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 8px; }
-.choix button { font: inherit; font-size: 0.85rem; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--trait-fort); background: var(--carte); color: var(--texte); cursor: pointer; }
-.choix button:hover { border-color: var(--fr); }
-.choix button[aria-pressed="true"] { background: var(--texte); color: var(--fond); border-color: var(--texte); }
-#courbe { height: 320px; background: var(--carte); border: 1px solid var(--trait); border-radius: 14px; padding: 8px; }
-.cles { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 8px; font-size: 0.85rem; color: var(--doux); }
-.cles i { display: inline-block; width: 12px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 5px; }
 footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
 </style>
 </head>
@@ -104,13 +97,6 @@ footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
   <div class="fleches"><button data-sens="-1" aria-label="Défiler à gauche">←</button><button data-sens="1" aria-label="Défiler à droite">→</button></div>
   <div class="boite"><table id="resume"></table></div>
 
-  <h2>Courbes</h2>
-  <p class="aide">Évolution d'un relevé à l'autre. Survoler une courbe pour lire les chiffres ; molette pour zoomer, clic-glisser pour se déplacer.</p>
-  <div class="choix" id="c-met"><button data-m="vues" aria-pressed="true">Vues</button><button data-m="abonnes">Abonnés</button><button data-m="jaime">J’aime</button><button data-m="commentaires">Commentaires</button></div>
-  <div class="choix" id="c-par"><button data-p="reseau" aria-pressed="true">Par réseau</button><button data-p="langue">Par langue</button></div>
-  <div id="courbe"></div>
-  <div class="cles" id="cles"></div>
-
   <h2>Par vidéo</h2>
   <p class="aide">Une ligne par sujet, la plus récente en haut. <span id="note-x"></span> Clic sur un chiffre : ouvre la publication.</p>
   <div class="fleches"><button data-sens="-1" aria-label="Défiler à gauche">←</button><button data-sens="1" aria-label="Défiler à droite">→</button></div>
@@ -124,7 +110,6 @@ footer { margin-top: 36px; color: var(--doux); font-size: 0.8rem; }
 
   <footer>Chiffres relevés sur les pages publiques de TikTok, Facebook, Instagram et X. Les vues d'un thread X sont celles de son premier post.</footer>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@5.2.1/dist/lightweight-charts.standalone.production.js"></script>
 <script>
 const RESEAUX = [['tiktok', 'TikTok'], ['facebook', 'Facebook'], ['instagram', 'Instagram'], ['x', 'X']];
 const NOMS_COL = { tiktok: 'TikTok', facebook: 'Facebook', instagram: 'Instagram', xvideo: 'X vidéo', xthread: 'X thread', x: 'X' };
@@ -211,46 +196,6 @@ function defilement() {
   });
 }
 
-// Courbes (TradingView Lightweight Charts) à partir de l'historique des relevés
-const CC = { met: 'vues', par: 'reseau' };
-const COUL = { tiktok: '#e0245e', facebook: '#1877f2', instagram: '#c13584', x: '#6b655e', fr: 'var(--fr)', en: 'var(--en)', total: 'var(--texte)' };
-let graph = null;
-function courbes() {
-  const box = document.getElementById('courbe');
-  if (!window.LightweightCharts) { box.textContent = 'Graphique indisponible (bibliothèque non chargée).'; return; }
-  const css = getComputedStyle(document.documentElement), v = k => css.getPropertyValue(k).trim();
-  const coul = k => COUL[k].startsWith('var(') ? v(COUL[k].slice(4, -1)) : COUL[k];
-  if (graph) graph.remove();
-  graph = LightweightCharts.createChart(box, {
-    autoSize: true,
-    layout: { background: { color: 'transparent' }, textColor: v('--doux'), fontFamily: 'system-ui, sans-serif', attributionLogo: false },
-    grid: { vertLines: { color: v('--trait') }, horzLines: { color: v('--trait') } },
-    rightPriceScale: { borderColor: v('--trait') }, timeScale: { borderColor: v('--trait'), tickMarkFormatter: t => typeof t === 'string' ? jourCourt(t) : typeof t === 'object' ? jourCourt(`${t.year}-${String(t.month).padStart(2, '0')}-${String(t.day).padStart(2, '0')}`) : new Date(t * 1000).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }) },
-    localization: { locale: 'fr-FR', dateFormat: 'dd/MM/yyyy', priceFormatter: x => nf.format(Math.round(x)) },
-  });
-  const groupes = CC.par === 'reseau' ? RESEAUX.map(([r, nom]) => [r, nom, id => id.startsWith(r + '-')])
-    : L.map(l => [l, l.toUpperCase(), id => id.endsWith('-' + l)]);
-  groupes.push(['total', 'Total', () => true]);
-  const cles = [];
-  for (const [k, nom, garde] of groupes) {
-    const pts = D.historique.map(h => ({ time: h.date, value: Object.entries(h.comptes).filter(([id]) => garde(id)).reduce((a, [, x]) => a + (x[CC.met] || 0), 0) }));
-    if (k !== 'total' && pts.every(p => !p.value)) continue;
-    const s = graph.addSeries(LightweightCharts.LineSeries, { color: coul(k), lineWidth: k === 'total' ? 3 : 2, title: nom, lastValueVisible: true, priceLineVisible: false });
-    s.setData(pts);
-    cles.push(`<span><i style="background:${coul(k)}"></i>${esc(nom)}</span>`);
-  }
-  graph.timeScale().fitContent();
-  document.getElementById('cles').innerHTML = cles.join('');
-}
-for (const [id, cle, att] of [['c-met', 'met', 'm'], ['c-par', 'par', 'p']])
-  document.getElementById(id).addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    CC[cle] = b.dataset[att];
-    document.querySelectorAll('#' + id + ' button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
-    courbes();
-  });
-matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => D && courbes());
-
 let defile = false;
 const chaine = () => CHAINES[location.hash.slice(1)] ? location.hash.slice(1) : 'lumiere';
 function charger() {
@@ -268,7 +213,7 @@ function charger() {
     document.getElementById('maj').textContent = 'dernier relevé le ' + quand;
     document.getElementById('charge').textContent = 'Page chargée à ' + new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) + '. Pour de nouveaux chiffres, demander « /stats » à Claude.';
     document.getElementById('note').textContent = d.note || '';
-    resume(); courbes(); videos(); evolution();
+    resume(); videos(); evolution();
     if (!defile) { defilement(); defile = true; } else dispatchEvent(new Event('resize'));
   }).catch(e => { document.getElementById('maj').textContent = 'données introuvables'; console.error(e); })
     .finally(() => { b.disabled = false; });

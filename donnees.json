@@ -13,8 +13,8 @@
   "xthread"
  ],
  "note_x": "Sur X, la vidéo et le thread du même sujet sont dans deux colonnes.",
- "maj": "2026-11-09",
- "releve_le": "2026-11-09T12:43:28.474Z",
+ "maj": "2026-11-10",
+ "releve_le": "2026-11-10T15:05:45.257Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -27,6 +27,16 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734061545131286",
+     "vues": 82,
+     "jaime": 4,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 14,
+     "sujet": "Protéines, combien par jour"
+    },
     {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703863119973584150",
@@ -69,9 +79,9 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 315,
-    "jaime": 10,
+    "publications": 5,
+    "vues": 397,
+    "jaime": 14,
     "commentaires": 0,
     "partages": 0
    }
@@ -85,6 +95,16 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754091393699094",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 14,
+     "sujet": "Protein, how much a day"
+    },
     {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876306403921174",
@@ -127,7 +147,7 @@
     }
    ],
    "totaux": {
-    "publications": 4,
+    "publications": 5,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -144,9 +164,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1605238804617266",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 14,
+     "sujet": "Protéines, combien par jour"
+    },
+    {
      "date": "2026-11-08T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1639162277991688/",
-     "vues": 238,
+     "vues": 239,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -156,7 +186,7 @@
     {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.facebook.com/reel/28119581957718602/",
-     "vues": 205,
+     "vues": 206,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -166,7 +196,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1786462109244868/",
-     "vues": 2,
+     "vues": 3,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -176,7 +206,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 262,
+     "vues": 263,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -185,8 +215,8 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 707,
+    "publications": 5,
+    "vues": 711,
     "jaime": 2,
     "commentaires": 0,
     "partages": 0
@@ -202,9 +232,19 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/2206887066876509",
+     "vues": 201,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 14,
+     "sujet": "Protein, how much a day"
+    },
+    {
      "date": "2026-11-08T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2103407973625530/",
-     "vues": 318,
+     "vues": 321,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -214,7 +254,7 @@
     {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1953586652283954/",
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -224,7 +264,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2485714275256253/",
-     "vues": 2,
+     "vues": 3,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -234,7 +274,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/2224056648488695/",
-     "vues": 207,
+     "vues": 208,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -243,8 +283,8 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 528,
+    "publications": 5,
+    "vues": 735,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -388,6 +428,17 @@
      "sujet": "10 000 pas"
     },
     {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2119860069773001200",
+     "type": "court",
+     "texte": "2 315 hommes finlandais suivis",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "2 315 hommes finlandais suivis"
+    },
+    {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2119497683211620613",
      "type": "court",
@@ -458,7 +509,7 @@
     }
    ],
    "totaux": {
-    "publications": 7,
+    "publications": 8,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -474,6 +525,17 @@
    "abonnes": 2,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-09T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2119860071903678884",
+     "type": "court",
+     "texte": "2,315 Finnish men followed for",
+     "vues": 4,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "2,315 Finnish men followed for"
+    },
     {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2119497681135698139",
@@ -545,8 +607,8 @@
     }
    ],
    "totaux": {
-    "publications": 6,
-    "vues": 0,
+    "publications": 7,
+    "vues": 4,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -554,6 +616,44 @@
   }
  ],
  "videos": [
+  {
+   "num": 14,
+   "sujet": {
+    "fr": "Protéines, combien par jour",
+    "en": "Protein, how much a day"
+   },
+   "date": "2026-11-09",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 82,
+     "jaime": 4,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734061545131286"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754091393699094"
+    },
+    "facebook-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1605238804617266"
+    },
+    "facebook-en": {
+     "vues": 201,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/2206887066876509"
+    }
+   }
+  },
   {
    "num": 1,
    "sujet": {
@@ -577,14 +677,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876306403921174"
     },
     "facebook-fr": {
-     "vues": 238,
+     "vues": 239,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1639162277991688/"
     },
     "facebook-en": {
-     "vues": 318,
+     "vues": 321,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -650,14 +750,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753668012412182"
     },
     "facebook-fr": {
-     "vues": 205,
+     "vues": 206,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/28119581957718602/"
     },
     "facebook-en": {
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -702,14 +802,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753385030962454"
     },
     "facebook-fr": {
-     "vues": 2,
+     "vues": 3,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1786462109244868/"
     },
     "facebook-en": {
-     "vues": 2,
+     "vues": 3,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -754,14 +854,14 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 262,
+     "vues": 263,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.facebook.com/reel/1562875678977214/"
     },
     "facebook-en": {
-     "vues": 207,
+     "vues": 208,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -1020,6 +1120,59 @@
     "x-en": {
      "abonnes": 2,
      "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 397,
+     "jaime": 14,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 711,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 735,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 2,
+     "vues": 528,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 0,
+     "vues": 348,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 2,
+     "vues": 4,
      "jaime": 0,
      "commentaires": 0
     }

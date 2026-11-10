@@ -11,8 +11,8 @@
   "x"
  ],
  "note_x": "",
- "maj": "2026-11-08",
- "releve_le": "2026-11-08T08:47:54.752Z",
+ "maj": "2026-11-10",
+ "releve_le": "2026-11-10T15:05:45.314Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -24,9 +24,20 @@
    "lien": "https://www.tiktok.com/@comprendtoi0",
    "abonnes": 0,
    "detail": true,
-   "publications": [],
+   "publications": [
+    {
+     "date": "2026-11-09T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703007144430870",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Trie tes inquiétudes : utile ou pas ?"
+    }
+   ],
    "totaux": {
-    "publications": 0,
+    "publications": 1,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -41,10 +52,21 @@
    "lien": "https://www.facebook.com/profile.php?id=61596336331806",
    "abonnes": 0,
    "detail": true,
-   "publications": [],
+   "publications": [
+    {
+     "date": "2026-11-09T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1998590350814022",
+     "vues": 248,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 2,
+     "sujet": "Trie tes inquiétudes : utile ou pas ?"
+    }
+   ],
    "totaux": {
-    "publications": 0,
-    "vues": 0,
+    "publications": 1,
+    "vues": 248,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -75,17 +97,61 @@
    "lien": "https://x.com/teteclaire_psy",
    "abonnes": 3,
    "detail": true,
-   "publications": [],
+   "publications": [
+    {
+     "date": "2026-11-09T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2119852523167088906",
+     "type": "video",
+     "texte": "Trie tes inquiétudes : utile o",
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 2,
+     "sujet": "Trie tes inquiétudes : utile ou pas ?"
+    }
+   ],
    "totaux": {
-    "publications": 0,
-    "vues": 0,
+    "publications": 1,
+    "vues": 1,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
    }
   }
  ],
- "videos": [],
+ "videos": [
+  {
+   "num": 2,
+   "sujet": {
+    "fr": "Trie tes inquiétudes : utile ou pas ?"
+   },
+   "date": "2026-11-09",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703007144430870"
+    },
+    "facebook-fr": {
+     "vues": 248,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1998590350814022"
+    },
+    "x-fr": {
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2119852523167088906"
+    }
+   }
+  }
+ ],
  "historique": [
   {
    "date": "2026-11-08",
@@ -111,6 +177,35 @@
     "x-fr": {
      "abonnes": 3,
      "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 248,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 3,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0
     }
