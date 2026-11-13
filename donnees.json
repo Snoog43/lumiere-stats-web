@@ -13,8 +13,8 @@
   "xthread"
  ],
  "note_x": "Sur X, la vidéo et le thread du même sujet sont dans deux colonnes.",
- "maj": "2026-11-10",
- "releve_le": "2026-11-10T18:57:30.929Z",
+ "maj": "2026-11-13",
+ "releve_le": "2026-11-13T09:39:46.724Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -28,9 +28,29 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703867163249052950",
+     "vues": 89,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 9,
+     "sujet": "Vitamine D"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734066783980822",
+     "vues": 85,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 15,
+     "sujet": "Créatine, muscle et cerveau"
+    },
+    {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703863631053720854",
-     "vues": 31,
+     "vues": 89,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -50,7 +70,7 @@
     {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703863119973584150",
-     "vues": 76,
+     "vues": 77,
      "jaime": 5,
      "commentaires": 0,
      "partages": 0,
@@ -60,7 +80,7 @@
     {
      "date": "2026-11-07T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7704733311956045078",
-     "vues": 83,
+     "vues": 84,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -89,9 +109,9 @@
     }
    ],
    "totaux": {
-    "publications": 6,
-    "vues": 428,
-    "jaime": 14,
+    "publications": 8,
+    "vues": 662,
+    "jaime": 17,
     "commentaires": 0,
     "partages": 0
    }
@@ -105,6 +125,26 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876473840487702",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 9,
+     "sujet": "Vitamin D"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754459884211478",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 15,
+     "sujet": "Creatine, muscle and brain"
+    },
     {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876467188337942",
@@ -167,7 +207,7 @@
     }
    ],
    "totaux": {
-    "publications": 6,
+    "publications": 8,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -184,12 +224,32 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1906280080339513",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 9,
+     "sujet": "Vitamine D"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1665416668705739",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 15,
+     "sujet": "Créatine, muscle et cerveau"
+    },
+    {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1675484134271608",
-     "vues": 0,
-     "jaime": null,
-     "commentaires": null,
-     "partages": null,
+     "vues": 138,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
      "num": 3,
      "sujet": "Zinc et huîtres"
     },
@@ -245,8 +305,8 @@
     }
    ],
    "totaux": {
-    "publications": 6,
-    "vues": 716,
+    "publications": 8,
+    "vues": 854,
     "jaime": 2,
     "commentaires": 0,
     "partages": 0
@@ -262,6 +322,26 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1684466539778537",
+     "vues": 17,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 9,
+     "sujet": "Vitamin D"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1007688171670766",
+     "vues": 89,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 15,
+     "sujet": "Creatine, muscle and brain"
+    },
+    {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1945224953497676",
      "vues": 0,
@@ -274,7 +354,7 @@
     {
      "date": "2026-11-09T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/2206887066876509",
-     "vues": 201,
+     "vues": 203,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -323,8 +403,8 @@
     }
    ],
    "totaux": {
-    "publications": 6,
-    "vues": 735,
+    "publications": 8,
+    "vues": 843,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -340,9 +420,49 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfptBjbhjBS/",
+     "vues": 204,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 9,
+     "sujet": "Vitamine D"
+    },
+    {
+     "date": "2026-11-11T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfnIQbDDzDv/",
+     "vues": 122,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 15,
+     "sujet": "Créatine, muscle et cerveau"
+    },
+    {
+     "date": "2026-11-10T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfkjeiIiuVt/",
+     "vues": 149,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "num": 3,
+     "sujet": "Zinc et huîtres"
+    },
+    {
+     "date": "2026-11-09T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfh-rEzkjJ1/",
+     "vues": 217,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "num": 14,
+     "sujet": "Protéines, combien par jour"
+    },
+    {
      "date": "2026-11-08T18:30:00Z",
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DffZ4_lirQM/",
-     "vues": 157,
+     "vues": 158,
      "jaime": 1,
      "commentaires": 0,
      "partages": null,
@@ -381,9 +501,9 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 528,
-    "jaime": 2,
+    "publications": 8,
+    "vues": 1221,
+    "jaime": 6,
     "commentaires": 0,
     "partages": 0
    }
@@ -394,9 +514,39 @@
    "langue": "en",
    "nom": "@luminavitae.health",
    "lien": "https://www.instagram.com/luminavitae.health/",
-   "abonnes": 0,
+   "abonnes": 1,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-12T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfptE6NFAUw/",
+     "vues": 58,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 9,
+     "sujet": "Vitamin D"
+    },
+    {
+     "date": "2026-11-11T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfnIRlgANcO/",
+     "vues": 170,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 15,
+     "sujet": "Creatine, muscle and brain"
+    },
+    {
+     "date": "2026-11-09T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Dfh-sixl-Ik/",
+     "vues": 160,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "num": 14,
+     "sujet": "Protein, how much a day"
+    },
     {
      "date": "2026-11-08T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/DffZ6BSErUl/",
@@ -430,7 +580,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/",
-     "vues": 0,
+     "vues": 4,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -439,9 +589,9 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 348,
-    "jaime": 2,
+    "publications": 7,
+    "vues": 740,
+    "jaime": 3,
     "commentaires": 0,
     "partages": 0
    }
@@ -459,13 +609,47 @@
      "date": "2026-11-01T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2116960966357201391",
      "type": "thread",
-     "texte": "Tu n'as pas besoin de 10 000 p",
+     "texte": "Tu n'as pas besoin de        p",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "num": 1,
      "sujet": "10 000 pas"
+    },
+    {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2120947235219272113",
+     "type": "court",
+     "texte": "    minutes de nature par sema",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "    minutes de nature par sema"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2120584847592677548",
+     "type": "court",
+     "texte": "Eau froide = stress = cortisol",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Eau froide = stress = cortisol"
+    },
+    {
+     "date": "2026-11-11T11:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2120479151614525615",
+     "type": "video",
+     "texte": "À poids égal  l'huître contien",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 3,
+     "sujet": "Zinc et huîtres"
     },
     {
      "date": "2026-11-10T18:30:00.000Z",
@@ -483,23 +667,23 @@
      "date": "2026-11-09T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2119860069773001200",
      "type": "court",
-     "texte": "2 315 hommes finlandais suivis",
+     "texte": "      hommes finlandais suivis",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "2 315 hommes finlandais suivis"
+     "sujet": "      hommes finlandais suivis"
     },
     {
      "date": "2026-11-08T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2119497683211620613",
      "type": "court",
-     "texte": "« Un verre de vin par jour, c'",
+     "texte": "« Un verre de vin par jour  c'",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "« Un verre de vin par jour, c'"
+     "sujet": "« Un verre de vin par jour  c'"
     },
     {
      "date": "2026-11-07T18:30:00.000Z",
@@ -516,30 +700,29 @@
      "date": "2026-11-06T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118772907161858311",
      "type": "court",
-     "texte": "Légumes et viande d'abord, pai",
+     "texte": "Légumes et viande d'abord  pai",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Légumes et viande d'abord, pai"
+     "sujet": "Légumes et viande d'abord  pai"
     },
     {
      "date": "2026-11-06T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118667208918208529",
-     "type": "video",
-     "texte": "Marcher 10 minutes après chaqu",
+     "type": "court",
+     "texte": "Marcher    minutes après chaqu",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "num": 2,
-     "sujet": "Marcher après manger"
+     "sujet": "Marcher    minutes après chaqu"
     },
     {
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118410517387849802",
      "type": "thread",
-     "texte": "Marcher 10 minutes après chaqu",
+     "texte": "Marcher    minutes après chaqu",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -550,18 +733,17 @@
     {
      "date": "2026-11-03T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2117580049650205061",
-     "type": "video",
-     "texte": "Arrête de viser 10 000 pas par",
+     "type": "court",
+     "texte": "Arrête de viser        pas par",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "num": 1,
-     "sujet": "10 000 pas"
+     "sujet": "Arrête de viser        pas par"
     }
    ],
    "totaux": {
-    "publications": 9,
+    "publications": 12,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -578,11 +760,45 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2120947234649117014",
+     "type": "court",
+     "texte": "    minutes in nature per week",
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "    minutes in nature per week"
+    },
+    {
+     "date": "2026-11-11T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2120584844686332096",
+     "type": "court",
+     "texte": "Cold water = stress = cortisol",
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Cold water = stress = cortisol"
+    },
+    {
+     "date": "2026-11-11T11:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2120479148552679758",
+     "type": "video",
+     "texte": "Gram for gram  oysters have mo",
+     "vues": 2,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 3,
+     "sujet": "Zinc and oysters"
+    },
+    {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2120222457886031923",
      "type": "thread",
      "texte": "Pacific oysters have more than",
-     "vues": 0,
+     "vues": 8,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -593,12 +809,12 @@
      "date": "2026-11-09T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2119860071903678884",
      "type": "court",
-     "texte": "2,315 Finnish men followed for",
-     "vues": 4,
+     "texte": "      Finnish men followed for",
+     "vues": 6,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "2,315 Finnish men followed for"
+     "sujet": "      Finnish men followed for"
     },
     {
      "date": "2026-11-08T18:30:00.000Z",
@@ -626,18 +842,18 @@
      "date": "2026-11-06T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118772905492230342",
      "type": "court",
-     "texte": "Vegetables and protein first, ",
+     "texte": "Vegetables and protein first  ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Vegetables and protein first, "
+     "sujet": "Vegetables and protein first  "
     },
     {
      "date": "2026-11-06T11:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118667212437463399",
      "type": "video",
-     "texte": "Walking 10 minutes after each ",
+     "texte": "Walking    minutes after each ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -649,7 +865,7 @@
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2118410520948515023",
      "type": "thread",
-     "texte": "Walking 10 minutes after each ",
+     "texte": "Walking    minutes after each ",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -661,7 +877,7 @@
      "date": "2026-11-03T11:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2117580046802284610",
      "type": "video",
-     "texte": "10,000 steps a day? That numbe",
+     "texte": "       steps a day? That numbe",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
@@ -671,8 +887,8 @@
     }
    ],
    "totaux": {
-    "publications": 8,
-    "vues": 4,
+    "publications": 11,
+    "vues": 18,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -680,6 +896,110 @@
   }
  ],
  "videos": [
+  {
+   "num": 9,
+   "sujet": {
+    "fr": "Vitamine D",
+    "en": "Vitamin D"
+   },
+   "date": "2026-11-12",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 89,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703867163249052950"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876473840487702"
+    },
+    "facebook-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1906280080339513"
+    },
+    "facebook-en": {
+     "vues": 17,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1684466539778537"
+    },
+    "instagram-fr": {
+     "vues": 204,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfptBjbhjBS/"
+    },
+    "instagram-en": {
+     "vues": 58,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfptE6NFAUw/"
+    }
+   }
+  },
+  {
+   "num": 15,
+   "sujet": {
+    "fr": "Créatine, muscle et cerveau",
+    "en": "Creatine, muscle and brain"
+   },
+   "date": "2026-11-11",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 85,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734066783980822"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754459884211478"
+    },
+    "facebook-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.facebook.com/reel/1665416668705739"
+    },
+    "facebook-en": {
+     "vues": 89,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1007688171670766"
+    },
+    "instagram-fr": {
+     "vues": 122,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfnIQbDDzDv/"
+    },
+    "instagram-en": {
+     "vues": 170,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfnIRlgANcO/"
+    }
+   }
+  },
   {
    "num": 3,
    "sujet": {
@@ -689,7 +1009,7 @@
    "date": "2026-11-10",
    "cellules": {
     "tiktok-fr": {
-     "vues": 31,
+     "vues": 89,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -703,10 +1023,10 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876467188337942"
     },
     "facebook-fr": {
-     "vues": 0,
-     "jaime": null,
-     "commentaires": null,
-     "partages": null,
+     "vues": 138,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
      "lien": "https://www.facebook.com/reel/1675484134271608"
     },
     "facebook-en": {
@@ -716,6 +1036,20 @@
      "partages": null,
      "lien": "https://www.facebook.com/reel/1945224953497676"
     },
+    "instagram-fr": {
+     "vues": 149,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfkjeiIiuVt/"
+    },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2120479151614525615"
+    },
     "xthread-fr": {
      "vues": 0,
      "jaime": 0,
@@ -723,8 +1057,15 @@
      "partages": 0,
      "lien": "https://x.com/LumiereVitale/status/2120222459202802004"
     },
+    "xvideo-en": {
+     "vues": 2,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2120479148552679758"
+    },
     "xthread-en": {
-     "vues": 0,
+     "vues": 8,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -762,11 +1103,25 @@
      "lien": "https://www.facebook.com/reel/1605238804617266"
     },
     "facebook-en": {
-     "vues": 201,
+     "vues": 203,
      "jaime": null,
      "commentaires": null,
      "partages": null,
      "lien": "https://www.facebook.com/reel/2206887066876509"
+    },
+    "instagram-fr": {
+     "vues": 217,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfh-rEzkjJ1/"
+    },
+    "instagram-en": {
+     "vues": 160,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Dfh-sixl-Ik/"
     }
    }
   },
@@ -779,7 +1134,7 @@
    "date": "2026-11-08",
    "cellules": {
     "tiktok-fr": {
-     "vues": 76,
+     "vues": 77,
      "jaime": 5,
      "commentaires": 0,
      "partages": 0,
@@ -807,7 +1162,7 @@
      "lien": "https://www.facebook.com/reel/2103407973625530/"
     },
     "instagram-fr": {
-     "vues": 157,
+     "vues": 158,
      "jaime": 1,
      "commentaires": 0,
      "partages": null,
@@ -827,13 +1182,6 @@
      "partages": 0,
      "lien": "https://x.com/LumiereVitale/status/2116960966357201391"
     },
-    "xvideo-fr": {
-     "vues": 0,
-     "jaime": 0,
-     "commentaires": 0,
-     "partages": 0,
-     "lien": "https://x.com/LumiereVitale/status/2117580049650205061"
-    },
     "xvideo-en": {
      "vues": 0,
      "jaime": 0,
@@ -852,7 +1200,7 @@
    "date": "2026-11-07",
    "cellules": {
     "tiktok-fr": {
-     "vues": 83,
+     "vues": 84,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -991,18 +1339,11 @@
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfXrf6Vlq5_/"
     },
     "instagram-en": {
-     "vues": 0,
+     "vues": 4,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/"
-    },
-    "xvideo-fr": {
-     "vues": 0,
-     "jaime": 0,
-     "commentaires": 0,
-     "partages": 0,
-     "lien": "https://x.com/LumiereVitale/status/2118667208918208529"
     },
     "xthread-fr": {
      "vues": 0,
@@ -1289,6 +1630,59 @@
     "x-en": {
      "abonnes": 2,
      "vues": 4,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 662,
+     "jaime": 17,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 854,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 843,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 2,
+     "vues": 1221,
+     "jaime": 6,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 1,
+     "vues": 740,
+     "jaime": 3,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 2,
+     "vues": 18,
      "jaime": 0,
      "commentaires": 0
     }

@@ -11,8 +11,8 @@
   "x"
  ],
  "note_x": "",
- "maj": "2026-11-10",
- "releve_le": "2026-11-10T18:57:30.982Z",
+ "maj": "2026-11-13",
+ "releve_le": "2026-11-13T09:39:46.806Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -25,6 +25,26 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-12T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703666988190998",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 5,
+     "sujet": "Ruminer t'aide vraiment ? Mesure-le ce soir"
+    },
+    {
+     "date": "2026-11-11T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703484439416086",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Tout te paraît urgent ? Étire le temps"
+    },
     {
      "date": "2026-11-10T18:00:00.000Z",
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703252792233238",
@@ -47,7 +67,7 @@
     }
    ],
    "totaux": {
-    "publications": 2,
+    "publications": 4,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -64,9 +84,29 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1526726522596193",
+     "vues": 243,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 5,
+     "sujet": "Ruminer t'aide vraiment ? Mesure-le ce soir"
+    },
+    {
+     "date": "2026-11-11T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1120317034088089",
+     "vues": 264,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 4,
+     "sujet": "Tout te paraît urgent ? Étire le temps"
+    },
+    {
      "date": "2026-11-10T18:00:00.000Z",
      "lien": "https://www.facebook.com/reel/1449375293267216",
-     "vues": 154,
+     "vues": 227,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -85,8 +125,8 @@
     }
    ],
    "totaux": {
-    "publications": 2,
-    "vues": 402,
+    "publications": 4,
+    "vues": 982,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -119,11 +159,35 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-12T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2120939684213989593",
+     "type": "video",
+     "texte": "Ruminer t'aide vraiment ? Mesu",
+     "vues": 73,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 5,
+     "sujet": "Ruminer t'aide vraiment ? Mesure-le ce soir"
+    },
+    {
+     "date": "2026-11-11T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2120577303197683754",
+     "type": "video",
+     "texte": "Tout te paraît urgent ? Étire ",
+     "vues": 36,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Tout te paraît urgent ? Étire le temps"
+    },
+    {
      "date": "2026-11-10T18:00:00.000Z",
      "lien": "https://x.com/teteclaire_psy/status/2120214915482882436",
      "type": "video",
      "texte": "Ton esprit prédit le pire ? Vé",
-     "vues": 0,
+     "vues": 41,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -144,8 +208,8 @@
     }
    ],
    "totaux": {
-    "publications": 2,
-    "vues": 1,
+    "publications": 4,
+    "vues": 151,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -153,6 +217,66 @@
   }
  ],
  "videos": [
+  {
+   "num": 5,
+   "sujet": {
+    "fr": "Ruminer t'aide vraiment ? Mesure-le ce soir"
+   },
+   "date": "2026-11-12",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703666988190998"
+    },
+    "facebook-fr": {
+     "vues": 243,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1526726522596193"
+    },
+    "x-fr": {
+     "vues": 73,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2120939684213989593"
+    }
+   }
+  },
+  {
+   "num": 4,
+   "sujet": {
+    "fr": "Tout te paraît urgent ? Étire le temps"
+   },
+   "date": "2026-11-11",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703484439416086"
+    },
+    "facebook-fr": {
+     "vues": 264,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1120317034088089"
+    },
+    "x-fr": {
+     "vues": 36,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2120577303197683754"
+    }
+   }
+  },
   {
    "num": 3,
    "sujet": {
@@ -168,14 +292,14 @@
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703252792233238"
     },
     "facebook-fr": {
-     "vues": 154,
+     "vues": 227,
      "jaime": null,
      "commentaires": null,
      "partages": null,
      "lien": "https://www.facebook.com/reel/1449375293267216"
     },
     "x-fr": {
-     "vues": 0,
+     "vues": 41,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -268,6 +392,35 @@
     "x-fr": {
      "abonnes": 3,
      "vues": 1,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 2,
+     "vues": 982,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 3,
+     "vues": 151,
      "jaime": 0,
      "commentaires": 0
     }
