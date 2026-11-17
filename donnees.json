@@ -13,8 +13,8 @@
   "xthread"
  ],
  "note_x": "Sur X, la vidéo et le thread du même sujet sont dans deux colonnes.",
- "maj": "2026-11-13",
- "releve_le": "2026-11-13T09:39:46.724Z",
+ "maj": "2026-11-17",
+ "releve_le": "2026-11-17T11:10:09.275Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -28,6 +28,46 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734047020272918",
+     "vues": 96,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 18,
+     "sujet": "Ordre des aliments"
+    },
+    {
+     "date": "2026-11-15T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704735725119376662",
+     "vues": 93,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 17,
+     "sujet": "Jeûne intermittent"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703867274846899478",
+     "vues": 88,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-transformés"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734043748764950",
+     "vues": 85,
+     "jaime": 4,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 16,
+     "sujet": "Lumière du matin"
+    },
+    {
      "date": "2026-11-12T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703867163249052950",
      "vues": 89,
@@ -40,7 +80,7 @@
     {
      "date": "2026-11-11T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7704734066783980822",
-     "vues": 85,
+     "vues": 86,
      "jaime": 3,
      "commentaires": 0,
      "partages": 0,
@@ -100,7 +140,7 @@
     {
      "date": "2026-11-05T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@ledadventure/video/7703862733531335958",
-     "vues": 80,
+     "vues": 81,
      "jaime": 3,
      "commentaires": 0,
      "partages": 0,
@@ -109,9 +149,9 @@
     }
    ],
    "totaux": {
-    "publications": 8,
-    "vues": 662,
-    "jaime": 17,
+    "publications": 12,
+    "vues": 1026,
+    "jaime": 28,
     "commentaires": 0,
     "partages": 0
    }
@@ -125,6 +165,36 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704755971624652054",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 18,
+     "sujet": "Food order"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876776115719446",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-processed foods"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704755045740399894",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 16,
+     "sujet": "Morning light"
+    },
     {
      "date": "2026-11-12T18:30:00.000Z",
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876473840487702",
@@ -207,7 +277,7 @@
     }
    ],
    "totaux": {
-    "publications": 8,
+    "publications": 11,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -224,9 +294,49 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1419171086958247",
+     "vues": 230,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 18,
+     "sujet": "Ordre des aliments"
+    },
+    {
+     "date": "2026-11-15T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1161338439568269",
+     "vues": 266,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 17,
+     "sujet": "Jeûne intermittent"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1448499887452185",
+     "vues": 262,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 4,
+     "sujet": "Ultra-transformés"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/2133241290885763",
+     "vues": 169,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 16,
+     "sujet": "Lumière du matin"
+    },
+    {
      "date": "2026-11-12T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1906280080339513",
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -236,7 +346,7 @@
     {
      "date": "2026-11-11T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1665416668705739",
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -246,7 +356,7 @@
     {
      "date": "2026-11-10T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1675484134271608",
-     "vues": 138,
+     "vues": 139,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -256,7 +366,7 @@
     {
      "date": "2026-11-09T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1605238804617266",
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -266,7 +376,7 @@
     {
      "date": "2026-11-08T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1639162277991688/",
-     "vues": 240,
+     "vues": 241,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -276,7 +386,7 @@
     {
      "date": "2026-11-07T18:30:00Z",
      "lien": "https://www.facebook.com/reel/28119581957718602/",
-     "vues": 207,
+     "vues": 208,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -286,7 +396,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1786462109244868/",
-     "vues": 4,
+     "vues": 5,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -296,7 +406,7 @@
     {
      "date": "2026-11-05T18:30:00Z",
      "lien": "https://www.facebook.com/reel/1562875678977214/",
-     "vues": 264,
+     "vues": 265,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -305,8 +415,8 @@
     }
    ],
    "totaux": {
-    "publications": 8,
-    "vues": 854,
+    "publications": 12,
+    "vues": 1789,
     "jaime": 2,
     "commentaires": 0,
     "partages": 0
@@ -321,6 +431,46 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1657630379188153",
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 18,
+     "sujet": "Food order"
+    },
+    {
+     "date": "2026-11-15T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1004107319431855",
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 17,
+     "sujet": "Intermittent fasting"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1411925270929245",
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 4,
+     "sujet": "Ultra-processed foods"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://www.facebook.com/reel/1676998760673354",
+     "vues": 2,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 16,
+     "sujet": "Morning light"
+    },
     {
      "date": "2026-11-12T18:30:00.000Z",
      "lien": "https://www.facebook.com/reel/1684466539778537",
@@ -403,8 +553,8 @@
     }
    ],
    "totaux": {
-    "publications": 8,
-    "vues": 843,
+    "publications": 12,
+    "vues": 845,
     "jaime": 1,
     "commentaires": 0,
     "partages": 0
@@ -416,9 +566,49 @@
    "langue": "fr",
    "nom": "@lumierevitale.sante",
    "lien": "https://www.instagram.com/lumierevitale.sante/",
-   "abonnes": 2,
+   "abonnes": 3,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-16T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Df0ARVxQ6dc/",
+     "vues": 178,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 18,
+     "sujet": "Ordre des aliments"
+    },
+    {
+     "date": "2026-11-15T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfxbfc9SOxH/",
+     "vues": 231,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 17,
+     "sujet": "Jeûne intermittent"
+    },
+    {
+     "date": "2026-11-14T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfu2sm4Jtxk/",
+     "vues": 180,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 4,
+     "sujet": "Ultra-transformés"
+    },
+    {
+     "date": "2026-11-13T18:30:00Z",
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfsR56FhH5b/",
+     "vues": 226,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "num": 16,
+     "sujet": "Lumière du matin"
+    },
     {
      "date": "2026-11-12T18:30:00Z",
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfptBjbhjBS/",
@@ -501,9 +691,9 @@
     }
    ],
    "totaux": {
-    "publications": 8,
-    "vues": 1221,
-    "jaime": 6,
+    "publications": 12,
+    "vues": 2036,
+    "jaime": 8,
     "commentaires": 0,
     "partages": 0
    }
@@ -518,9 +708,49 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-16T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Df0AUbdCVS5/",
+     "vues": 148,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 18,
+     "sujet": "Food order"
+    },
+    {
+     "date": "2026-11-15T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfxbbRVjcGo/",
+     "vues": 130,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 17,
+     "sujet": "Intermittent fasting"
+    },
+    {
+     "date": "2026-11-14T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Dfu2rZcD1Yg/",
+     "vues": 124,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "num": 4,
+     "sujet": "Ultra-processed foods"
+    },
+    {
+     "date": "2026-11-13T18:30:00Z",
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfsR3aVE6Jk/",
+     "vues": 115,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "num": 16,
+     "sujet": "Morning light"
+    },
+    {
      "date": "2026-11-12T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfptE6NFAUw/",
-     "vues": 58,
+     "vues": 83,
      "jaime": 0,
      "commentaires": 0,
      "partages": null,
@@ -570,7 +800,7 @@
     {
      "date": "2026-11-06T18:30:00Z",
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfaQT2cCaQF/",
-     "vues": 165,
+     "vues": 166,
      "jaime": 2,
      "commentaires": 0,
      "partages": null,
@@ -589,9 +819,9 @@
     }
    ],
    "totaux": {
-    "publications": 7,
-    "vues": 740,
-    "jaime": 3,
+    "publications": 11,
+    "vues": 1283,
+    "jaime": 4,
     "commentaires": 0,
     "partages": 0
    }
@@ -616,6 +846,63 @@
      "partages": 0,
      "num": 1,
      "sujet": "10 000 pas"
+    },
+    {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2122396784366415970",
+     "type": "court",
+     "texte": "   à    g de fibres par jour.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "   à    g de fibres par jour."
+    },
+    {
+     "date": "2026-11-15T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2122034396177846611",
+     "type": "court",
+     "texte": "Jusqu'à ≈  portions d'aliments",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Jusqu'à ≈  portions d'aliments"
+    },
+    {
+     "date": "2026-11-15T11:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2121928699692085249",
+     "type": "video",
+     "texte": "Même menu  même sucre  même se",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-transformés"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2121672008681578661",
+     "type": "thread",
+     "texte": "Mêmes calories servies. Même s",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-transformés"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://x.com/LumiereVitale/status/2121309623475126637",
+     "type": "court",
+     "texte": "  respirations par minute.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "  respirations par minute."
     },
     {
      "date": "2026-11-12T18:30:00.000Z",
@@ -710,13 +997,14 @@
     {
      "date": "2026-11-06T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2118667208918208529",
-     "type": "court",
+     "type": "video",
      "texte": "Marcher    minutes après chaqu",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Marcher    minutes après chaqu"
+     "num": 2,
+     "sujet": "Marcher après manger"
     },
     {
      "date": "2026-11-05T18:30:00.000Z",
@@ -733,17 +1021,18 @@
     {
      "date": "2026-11-03T11:30:00.000Z",
      "lien": "https://x.com/LumiereVitale/status/2117580049650205061",
-     "type": "court",
+     "type": "video",
      "texte": "Arrête de viser        pas par",
      "vues": 0,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
-     "sujet": "Arrête de viser        pas par"
+     "num": 1,
+     "sujet": "10 000 pas"
     }
    ],
    "totaux": {
-    "publications": 12,
+    "publications": 17,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -756,9 +1045,66 @@
    "langue": "en",
    "nom": "@luminavitae_",
    "lien": "https://x.com/luminavitae_",
-   "abonnes": 2,
+   "abonnes": 3,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-16T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2122396786048598096",
+     "type": "court",
+     "texte": "   to    g of fiber a day.",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "   to    g of fiber a day."
+    },
+    {
+     "date": "2026-11-15T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2122034398111617510",
+     "type": "court",
+     "texte": "Up to ≈  servings of fermented",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "Up to ≈  servings of fermented"
+    },
+    {
+     "date": "2026-11-15T11:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2121928704238694553",
+     "type": "video",
+     "texte": "Same menu  same sugar  same sa",
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-processed foods"
+    },
+    {
+     "date": "2026-11-14T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2121672010694852759",
+     "type": "thread",
+     "texte": "Same calories served. Same sug",
+     "vues": 4,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 4,
+     "sujet": "Ultra-processed foods"
+    },
+    {
+     "date": "2026-11-13T18:30:00.000Z",
+     "lien": "https://x.com/luminavitae_/status/2121309620346241416",
+     "type": "court",
+     "texte": "  breaths per minute.",
+     "vues": 3,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "sujet": "  breaths per minute."
+    },
     {
      "date": "2026-11-12T18:30:00.000Z",
      "lien": "https://x.com/luminavitae_/status/2120947234649117014",
@@ -786,7 +1132,7 @@
      "lien": "https://x.com/luminavitae_/status/2120479148552679758",
      "type": "video",
      "texte": "Gram for gram  oysters have mo",
-     "vues": 2,
+     "vues": 10,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -798,7 +1144,7 @@
      "lien": "https://x.com/luminavitae_/status/2120222457886031923",
      "type": "thread",
      "texte": "Pacific oysters have more than",
-     "vues": 8,
+     "vues": 14,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -887,8 +1233,8 @@
     }
    ],
    "totaux": {
-    "publications": 11,
-    "vues": 18,
+    "publications": 16,
+    "vues": 40,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -896,6 +1242,235 @@
   }
  ],
  "videos": [
+  {
+   "num": 18,
+   "sujet": {
+    "fr": "Ordre des aliments",
+    "en": "Food order"
+   },
+   "date": "2026-11-16",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 96,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734047020272918"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704755971624652054"
+    },
+    "facebook-fr": {
+     "vues": 230,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1419171086958247"
+    },
+    "facebook-en": {
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1657630379188153"
+    },
+    "instagram-fr": {
+     "vues": 178,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Df0ARVxQ6dc/"
+    },
+    "instagram-en": {
+     "vues": 148,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Df0AUbdCVS5/"
+    }
+   }
+  },
+  {
+   "num": 17,
+   "sujet": {
+    "fr": "Jeûne intermittent",
+    "en": "Intermittent fasting"
+   },
+   "date": "2026-11-15",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 93,
+     "jaime": 3,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704735725119376662"
+    },
+    "facebook-fr": {
+     "vues": 266,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1161338439568269"
+    },
+    "facebook-en": {
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1004107319431855"
+    },
+    "instagram-fr": {
+     "vues": 231,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfxbfc9SOxH/"
+    },
+    "instagram-en": {
+     "vues": 130,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfxbbRVjcGo/"
+    }
+   }
+  },
+  {
+   "num": 4,
+   "sujet": {
+    "fr": "Ultra-transformés",
+    "en": "Ultra-processed foods"
+   },
+   "date": "2026-11-14",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 88,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7703867274846899478"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876776115719446"
+    },
+    "facebook-fr": {
+     "vues": 262,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1448499887452185"
+    },
+    "facebook-en": {
+     "vues": 0,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1411925270929245"
+    },
+    "instagram-fr": {
+     "vues": 180,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/Dfu2sm4Jtxk/"
+    },
+    "instagram-en": {
+     "vues": 124,
+     "jaime": 1,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/Dfu2rZcD1Yg/"
+    },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2121928699692085249"
+    },
+    "xthread-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2121672008681578661"
+    },
+    "xvideo-en": {
+     "vues": 1,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2121928704238694553"
+    },
+    "xthread-en": {
+     "vues": 4,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/luminavitae_/status/2121672010694852759"
+    }
+   }
+  },
+  {
+   "num": 16,
+   "sujet": {
+    "fr": "Lumière du matin",
+    "en": "Morning light"
+   },
+   "date": "2026-11-13",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 85,
+     "jaime": 4,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@ledadventure/video/7704734043748764950"
+    },
+    "tiktok-en": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@luminavitae.health/video/7704755045740399894"
+    },
+    "facebook-fr": {
+     "vues": 169,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/2133241290885763"
+    },
+    "facebook-en": {
+     "vues": 2,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1676998760673354"
+    },
+    "instagram-fr": {
+     "vues": 226,
+     "jaime": 2,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfsR56FhH5b/"
+    },
+    "instagram-en": {
+     "vues": 115,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": null,
+     "lien": "https://www.instagram.com/luminavitae.health/reel/DfsR3aVE6Jk/"
+    }
+   }
+  },
   {
    "num": 9,
    "sujet": {
@@ -919,7 +1494,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876473840487702"
     },
     "facebook-fr": {
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -940,7 +1515,7 @@
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfptBjbhjBS/"
     },
     "instagram-en": {
-     "vues": 58,
+     "vues": 83,
      "jaime": 0,
      "commentaires": 0,
      "partages": null,
@@ -957,7 +1532,7 @@
    "date": "2026-11-11",
    "cellules": {
     "tiktok-fr": {
-     "vues": 85,
+     "vues": 86,
      "jaime": 3,
      "commentaires": 0,
      "partages": 0,
@@ -971,7 +1546,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754459884211478"
     },
     "facebook-fr": {
-     "vues": 0,
+     "vues": 1,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1023,7 +1598,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876467188337942"
     },
     "facebook-fr": {
-     "vues": 138,
+     "vues": 139,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1058,14 +1633,14 @@
      "lien": "https://x.com/LumiereVitale/status/2120222459202802004"
     },
     "xvideo-en": {
-     "vues": 2,
+     "vues": 10,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
      "lien": "https://x.com/luminavitae_/status/2120479148552679758"
     },
     "xthread-en": {
-     "vues": 8,
+     "vues": 14,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1096,7 +1671,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704754091393699094"
     },
     "facebook-fr": {
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1148,7 +1723,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703876306403921174"
     },
     "facebook-fr": {
-     "vues": 240,
+     "vues": 241,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1182,6 +1757,13 @@
      "partages": 0,
      "lien": "https://x.com/LumiereVitale/status/2116960966357201391"
     },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2117580049650205061"
+    },
     "xvideo-en": {
      "vues": 0,
      "jaime": 0,
@@ -1214,7 +1796,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753668012412182"
     },
     "facebook-fr": {
-     "vues": 207,
+     "vues": 208,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -1266,7 +1848,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7704753385030962454"
     },
     "facebook-fr": {
-     "vues": 4,
+     "vues": 5,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -1287,7 +1869,7 @@
      "lien": "https://www.instagram.com/lumierevitale.sante/reel/DfaQUwJDTWB/"
     },
     "instagram-en": {
-     "vues": 165,
+     "vues": 166,
      "jaime": 2,
      "commentaires": 0,
      "partages": null,
@@ -1304,7 +1886,7 @@
    "date": "2026-11-05",
    "cellules": {
     "tiktok-fr": {
-     "vues": 80,
+     "vues": 81,
      "jaime": 3,
      "commentaires": 0,
      "partages": 0,
@@ -1318,7 +1900,7 @@
      "lien": "https://www.tiktok.com/@luminavitae.health/video/7703875856585739542"
     },
     "facebook-fr": {
-     "vues": 264,
+     "vues": 265,
      "jaime": 1,
      "commentaires": 0,
      "partages": 0,
@@ -1344,6 +1926,13 @@
      "commentaires": 0,
      "partages": 0,
      "lien": "https://www.instagram.com/luminavitae.health/reel/DfXrgEGDye1/"
+    },
+    "xvideo-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/LumiereVitale/status/2118667208918208529"
     },
     "xthread-fr": {
      "vues": 0,
@@ -1683,6 +2272,59 @@
     "x-en": {
      "abonnes": 2,
      "vues": 18,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 1026,
+     "jaime": 28,
+     "commentaires": 0
+    },
+    "tiktok-en": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 0,
+     "vues": 1789,
+     "jaime": 2,
+     "commentaires": 0
+    },
+    "facebook-en": {
+     "abonnes": 0,
+     "vues": 845,
+     "jaime": 1,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 3,
+     "vues": 2036,
+     "jaime": 8,
+     "commentaires": 0
+    },
+    "instagram-en": {
+     "abonnes": 1,
+     "vues": 1283,
+     "jaime": 4,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-en": {
+     "abonnes": 3,
+     "vues": 40,
      "jaime": 0,
      "commentaires": 0
     }

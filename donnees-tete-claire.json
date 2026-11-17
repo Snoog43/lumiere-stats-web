@@ -11,8 +11,8 @@
   "x"
  ],
  "note_x": "",
- "maj": "2026-11-13",
- "releve_le": "2026-11-13T09:39:46.806Z",
+ "maj": "2026-11-17",
+ "releve_le": "2026-11-17T11:10:09.356Z",
  "note": "",
  "nonReleve": [],
  "comptes": [
@@ -25,6 +25,46 @@
    "abonnes": 0,
    "detail": true,
    "publications": [
+    {
+     "date": "2026-11-16T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704503370190102",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 9,
+     "sujet": "Ta tête déborde ? Vide-la en carte mentale"
+    },
+    {
+     "date": "2026-11-15T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704230807457046",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 8,
+     "sujet": "Quatre mots pour prendre du recul sur tes pensées"
+    },
+    {
+     "date": "2026-11-14T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704010803694870",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 7,
+     "sujet": "Tu hésites depuis des mois ? Fixe un délai"
+    },
+    {
+     "date": "2026-11-13T18:00:00.000Z",
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703850556067094",
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 6,
+     "sujet": "Laisse passer le train de tes pensées"
+    },
     {
      "date": "2026-11-12T18:00:00.000Z",
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703666988190998",
@@ -67,7 +107,7 @@
     }
    ],
    "totaux": {
-    "publications": 4,
+    "publications": 8,
     "vues": 0,
     "jaime": 0,
     "commentaires": 0,
@@ -84,9 +124,49 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-16T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1152886873824787",
+     "vues": 210,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 9,
+     "sujet": "Ta tête déborde ? Vide-la en carte mentale"
+    },
+    {
+     "date": "2026-11-15T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1038328959291742",
+     "vues": 244,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 8,
+     "sujet": "Quatre mots pour prendre du recul sur tes pensées"
+    },
+    {
+     "date": "2026-11-14T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/1716968853321643",
+     "vues": 229,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 7,
+     "sujet": "Tu hésites depuis des mois ? Fixe un délai"
+    },
+    {
+     "date": "2026-11-13T18:00:00.000Z",
+     "lien": "https://www.facebook.com/reel/2189393734980864",
+     "vues": 238,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "num": 6,
+     "sujet": "Laisse passer le train de tes pensées"
+    },
+    {
      "date": "2026-11-12T18:00:00.000Z",
      "lien": "https://www.facebook.com/reel/1526726522596193",
-     "vues": 243,
+     "vues": 244,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -96,7 +176,7 @@
     {
      "date": "2026-11-11T18:00:00.000Z",
      "lien": "https://www.facebook.com/reel/1120317034088089",
-     "vues": 264,
+     "vues": 265,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -125,8 +205,8 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 982,
+    "publications": 8,
+    "vues": 1905,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -159,6 +239,54 @@
    "detail": true,
    "publications": [
     {
+     "date": "2026-11-16T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2122389242529624308",
+     "type": "video",
+     "texte": "Ta tête déborde ? Vide-la en c",
+     "vues": 31,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 9,
+     "sujet": "Ta tête déborde ? Vide-la en carte mentale"
+    },
+    {
+     "date": "2026-11-15T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2122026853359866159",
+     "type": "video",
+     "texte": "Quatre mots pour prendre du re",
+     "vues": 22,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 8,
+     "sujet": "Quatre mots pour prendre du recul sur tes pensées"
+    },
+    {
+     "date": "2026-11-14T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2121664459999703530",
+     "type": "video",
+     "texte": "Tu hésites depuis des mois ? F",
+     "vues": 33,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 7,
+     "sujet": "Tu hésites depuis des mois ? Fixe un délai"
+    },
+    {
+     "date": "2026-11-13T18:00:00.000Z",
+     "lien": "https://x.com/teteclaire_psy/status/2121302081567068375",
+     "type": "video",
+     "texte": "Laisse passer le train de tes ",
+     "vues": 14,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "num": 6,
+     "sujet": "Laisse passer le train de tes pensées"
+    },
+    {
      "date": "2026-11-12T18:00:00.000Z",
      "lien": "https://x.com/teteclaire_psy/status/2120939684213989593",
      "type": "video",
@@ -187,7 +315,7 @@
      "lien": "https://x.com/teteclaire_psy/status/2120214915482882436",
      "type": "video",
      "texte": "Ton esprit prédit le pire ? Vé",
-     "vues": 41,
+     "vues": 44,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -199,7 +327,7 @@
      "lien": "https://x.com/teteclaire_psy/status/2119852523167088906",
      "type": "video",
      "texte": "Trie tes inquiétudes : utile o",
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -208,8 +336,8 @@
     }
    ],
    "totaux": {
-    "publications": 4,
-    "vues": 151,
+    "publications": 8,
+    "vues": 255,
     "jaime": 0,
     "commentaires": 0,
     "partages": 0
@@ -217,6 +345,126 @@
   }
  ],
  "videos": [
+  {
+   "num": 9,
+   "sujet": {
+    "fr": "Ta tête déborde ? Vide-la en carte mentale"
+   },
+   "date": "2026-11-16",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704503370190102"
+    },
+    "facebook-fr": {
+     "vues": 210,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1152886873824787"
+    },
+    "x-fr": {
+     "vues": 31,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2122389242529624308"
+    }
+   }
+  },
+  {
+   "num": 8,
+   "sujet": {
+    "fr": "Quatre mots pour prendre du recul sur tes pensées"
+   },
+   "date": "2026-11-15",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704230807457046"
+    },
+    "facebook-fr": {
+     "vues": 244,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1038328959291742"
+    },
+    "x-fr": {
+     "vues": 22,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2122026853359866159"
+    }
+   }
+  },
+  {
+   "num": 7,
+   "sujet": {
+    "fr": "Tu hésites depuis des mois ? Fixe un délai"
+   },
+   "date": "2026-11-14",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705704010803694870"
+    },
+    "facebook-fr": {
+     "vues": 229,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/1716968853321643"
+    },
+    "x-fr": {
+     "vues": 33,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2121664459999703530"
+    }
+   }
+  },
+  {
+   "num": 6,
+   "sujet": {
+    "fr": "Laisse passer le train de tes pensées"
+   },
+   "date": "2026-11-13",
+   "cellules": {
+    "tiktok-fr": {
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703850556067094"
+    },
+    "facebook-fr": {
+     "vues": 238,
+     "jaime": null,
+     "commentaires": null,
+     "partages": null,
+     "lien": "https://www.facebook.com/reel/2189393734980864"
+    },
+    "x-fr": {
+     "vues": 14,
+     "jaime": 0,
+     "commentaires": 0,
+     "partages": 0,
+     "lien": "https://x.com/teteclaire_psy/status/2121302081567068375"
+    }
+   }
+  },
   {
    "num": 5,
    "sujet": {
@@ -232,7 +480,7 @@
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703666988190998"
     },
     "facebook-fr": {
-     "vues": 243,
+     "vues": 244,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -262,7 +510,7 @@
      "lien": "https://www.tiktok.com/@comprendtoi0/video/7705703484439416086"
     },
     "facebook-fr": {
-     "vues": 264,
+     "vues": 265,
      "jaime": null,
      "commentaires": null,
      "partages": null,
@@ -299,7 +547,7 @@
      "lien": "https://www.facebook.com/reel/1449375293267216"
     },
     "x-fr": {
-     "vues": 41,
+     "vues": 44,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -329,7 +577,7 @@
      "lien": "https://www.facebook.com/reel/1998590350814022"
     },
     "x-fr": {
-     "vues": 1,
+     "vues": 2,
      "jaime": 0,
      "commentaires": 0,
      "partages": 0,
@@ -421,6 +669,35 @@
     "x-fr": {
      "abonnes": 3,
      "vues": 151,
+     "jaime": 0,
+     "commentaires": 0
+    }
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "comptes": {
+    "tiktok-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "facebook-fr": {
+     "abonnes": 2,
+     "vues": 1905,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "instagram-fr": {
+     "abonnes": 0,
+     "vues": 0,
+     "jaime": 0,
+     "commentaires": 0
+    },
+    "x-fr": {
+     "abonnes": 3,
+     "vues": 255,
      "jaime": 0,
      "commentaires": 0
     }
